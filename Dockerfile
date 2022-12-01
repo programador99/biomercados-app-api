@@ -6,7 +6,7 @@ FROM node:16-alpine
 COPY . /tmp/builder
 
 RUN cd /tmp/builder && \
-    npm ci && \
+    npm i && \
     npm run build && \
     mkdir -p /var/www/node_modules && \
     chown -R node:node /var/www && \
@@ -17,7 +17,7 @@ WORKDIR /var/www
 
 # COPY package*.json .env ./
 COPY package*.json ./
-COPY .env.example .env
+COPY .env .env
 
 RUN npm install --production && rm -rf /tmp/builder/
 
