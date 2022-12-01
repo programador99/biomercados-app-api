@@ -1,0 +1,35 @@
+stages:
+  - docker-build
+  - deploy
+
+docker:
+  stage: docker-build
+  only:
+    - qa
+    - main
+    - uat
+  tags:
+    - docker
+  before_script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  script:
+    - docker build -f ./docker/dockerfiles/Dockerfile -t $CI_REGISTRY_IMAGE:$CI_COMMIT_BRANCH .
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_BRANCH
+
+deploy:
+  stage: deploy
+  image: curlimages/curl
+  resource_group: deploy-prod
+  tags:
+    - docker
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      when: manual
+    - if: '$CI_COMMIT_BRANCH == "qa"'
+      when: on_success
+    - if: '$CI_COMMIT_BRANCH == "uat"'
+      when: manual
+  script:
+    - if [ "$CI_COMMIT_BRANCH" = "main" ] ; then curl -X POST $prod_server ;
+    - elif [ "$CI_COMMIT_BRANCH" = "uat" ] ; then curl -X POST $uat_server ;
+    - else curl -X POST $qa_server ; fi

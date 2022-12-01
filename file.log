@@ -1,0 +1,1960 @@
+[2022-10-19T16:59:49.084] [INFO] cheese - Cheese is Comté.
+[2022-10-19T16:59:49.085] [ERROR] cheese - Cheese is too ripe!
+[2022-10-19T16:59:54.866] [INFO] cheese - Cheese is Comté.
+[2022-10-19T16:59:54.867] [ERROR] cheese - Cheese is too ripe!
+[2022-10-19T17:06:52.084] [INFO] cheese - Cheese is Comté.
+[2022-10-19T17:06:52.085] [ERROR] cheese - Cheese is too ripe!
+[2022-10-19T17:06:59.133] [INFO] cheese - Cheese is Comté.
+[2022-10-19T17:06:59.134] [ERROR] cheese - Cheese is too ripe!
+[2022-10-19T17:07:02.136] [INFO] everything - Cheese is Comté.
+[2022-10-19T17:07:02.137] [ERROR] everything - Cheese is too ripe!
+[2022-10-19T17:07:09.796] [INFO] everything - Cheese is Comté.
+[2022-10-19T17:07:09.797] [ERROR] everything - Cheese is too ripe!
+[2022-10-19T17:52:06.881] [ERROR] everything - {
+  token: 'xj80f25ctxhowhync2hd3tghiyt1fo5j',
+  user: {
+    id: 5268,
+    email: 'cfuentes@jacidi.com',
+    firstname: 'eduardo ',
+    lastname: 'fuentes'
+  }
+}
+[2022-10-19T17:59:18.028] [ERROR] everything - Error al refrescar token
+[2022-10-19T18:29:18.027] [ERROR] everything - Error al refrescar token
+[2022-10-19T18:59:18.033] [ERROR] everything - Error al refrescar token
+[2022-10-20T20:09:22.928] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:14:56.666] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:16:16.344] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:16:52.602] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:17:03.030] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:19:23.387] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:39:32.398] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:40:10.284] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:45:25.251] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:45:26.033] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2022-10-20T20:46:58.717] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:46:59.566] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2022-10-20T20:47:11.143] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:47:12.083] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2022-10-20T20:47:33.950] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:50:58.771] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:52:13.051] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:52:26.432] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:53:00.609] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:53:36.173] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T20:58:25.317] [ERROR] everything - error inesperado {}
+[2022-10-20T20:59:00.640] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-20T21:29:00.187] [ERROR] everything - Error al refrescar token
+[2022-10-20T21:59:00.181] [ERROR] everything - Error al refrescar token
+[2022-10-21T10:59:10.070] [ERROR] everything - Error al refrescar token
+[2022-10-21T10:59:10.454] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-21T10:59:12.311] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-21T10:59:13.328] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-10-21T10:59:20.540] [ERROR] everything - The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2022-10-21T11:59:36.851] [ERROR] everything - Debe enviar un token
+[2022-10-21T12:29:36.853] [ERROR] everything - Debe enviar un token
+[2022-10-21T12:59:36.849] [ERROR] everything - Debe enviar un token
+[2022-10-21T13:30:30.860] [ERROR] everything - Debe enviar un token
+[2022-10-21T14:00:30.859] [ERROR] everything - Debe enviar un token
+[2022-11-01T21:25:13.311] [ERROR] everything - error inesperado {}
+[2022-11-01T21:25:35.433] [ERROR] everything - error inesperado {}
+[2022-11-01T21:25:39.294] [ERROR] everything - error inesperado {}
+[2022-11-01T21:25:43.321] [ERROR] everything - error inesperado {}
+[2022-11-01T21:25:47.354] [ERROR] everything - error inesperado {}
+[2022-11-01T21:26:09.173] [ERROR] everything - error inesperado {}
+[2022-11-01T21:26:13.121] [ERROR] everything - error inesperado {}
+[2022-11-01T21:26:17.039] [ERROR] everything - error inesperado {}
+[2022-11-01T21:26:20.991] [ERROR] everything - error inesperado {}
+[2022-11-01T21:26:24.987] [ERROR] everything - error inesperado {}
+[2022-11-01T21:26:29.061] [ERROR] everything - error inesperado {}
+[2022-11-01T21:26:33.084] [ERROR] everything - error inesperado {}
+[2022-11-01T21:26:37.163] [ERROR] everything - error inesperado {}
+[2022-11-01T21:26:41.047] [ERROR] everything - error inesperado {}
+[2022-11-01T21:26:45.150] [ERROR] everything - error inesperado {}
+[2022-11-01T21:26:49.098] [ERROR] everything - error inesperado {}
+[2022-11-01T21:26:52.988] [ERROR] everything - error inesperado {}
+[2022-11-01T21:26:55.994] [ERROR] everything - error inesperado {}
+[2022-11-01T21:26:57.009] [ERROR] everything - error inesperado {}
+[2022-11-01T21:27:01.125] [ERROR] everything - error inesperado {}
+[2022-11-01T21:27:05.263] [ERROR] everything - error inesperado {}
+[2022-11-01T21:27:09.192] [ERROR] everything - error inesperado {}
+[2022-11-01T21:27:13.081] [ERROR] everything - error inesperado {}
+[2022-11-01T21:27:17.129] [ERROR] everything - error inesperado {}
+[2022-11-01T21:27:21.068] [ERROR] everything - error inesperado {}
+[2022-11-01T21:27:25.796] [ERROR] everything - error inesperado {}
+[2022-11-01T21:27:29.685] [ERROR] everything - error inesperado {}
+[2022-11-01T21:27:33.662] [ERROR] everything - error inesperado {}
+[2022-11-01T21:27:37.623] [ERROR] everything - error inesperado {}
+[2022-11-01T21:27:41.530] [ERROR] everything - error inesperado {}
+[2022-11-01T21:27:45.553] [ERROR] everything - error inesperado {}
+[2022-11-01T21:28:08.606] [ERROR] everything - error inesperado {}
+[2022-11-01T21:28:12.501] [ERROR] everything - error inesperado {}
+[2022-11-01T21:28:16.480] [ERROR] everything - error inesperado {}
+[2022-11-01T21:28:20.609] [ERROR] everything - error inesperado {}
+[2022-11-01T21:28:24.523] [ERROR] everything - error inesperado {}
+[2022-11-01T21:28:28.455] [ERROR] everything - error inesperado {}
+[2022-11-01T21:28:32.364] [ERROR] everything - error inesperado {}
+[2022-11-01T21:28:36.432] [ERROR] everything - error inesperado {}
+[2022-11-01T21:28:40.402] [ERROR] everything - error inesperado {}
+[2022-11-01T21:28:44.358] [ERROR] everything - error inesperado {}
+[2022-11-01T21:28:48.219] [ERROR] everything - error inesperado {}
+[2022-11-01T21:28:52.049] [ERROR] everything - error inesperado {}
+[2022-11-01T21:28:55.865] [ERROR] everything - error inesperado {}
+[2022-11-01T21:28:59.655] [ERROR] everything - error inesperado {}
+[2022-11-01T21:29:03.434] [ERROR] everything - error inesperado {}
+[2022-11-01T21:29:07.263] [ERROR] everything - error inesperado {}
+[2022-11-01T21:29:11.131] [ERROR] everything - error inesperado {}
+[2022-11-01T21:29:14.940] [ERROR] everything - error inesperado {}
+[2022-11-01T21:29:18.854] [ERROR] everything - error inesperado {}
+[2022-11-01T21:29:22.548] [ERROR] everything - error inesperado {}
+[2022-11-01T21:29:26.387] [ERROR] everything - error inesperado {}
+[2022-11-01T21:29:30.464] [ERROR] everything - error inesperado {}
+[2022-11-01T21:29:34.253] [ERROR] everything - error inesperado {}
+[2022-11-01T21:29:38.042] [ERROR] everything - error inesperado {}
+[2022-11-01T21:29:41.851] [ERROR] everything - error inesperado {}
+[2022-11-01T21:29:45.663] [ERROR] everything - error inesperado {}
+[2022-11-01T21:30:08.300] [ERROR] everything - error inesperado {}
+[2022-11-01T21:30:13.381] [ERROR] everything - error inesperado {}
+[2022-11-01T21:30:20.287] [ERROR] everything - error inesperado {}
+[2022-11-01T21:30:23.948] [ERROR] everything - error inesperado {}
+[2022-11-01T21:30:27.785] [ERROR] everything - error inesperado {}
+[2022-11-01T21:30:31.784] [ERROR] everything - error inesperado {}
+[2022-11-01T21:30:35.593] [ERROR] everything - error inesperado {}
+[2022-11-01T21:30:39.560] [ERROR] everything - error inesperado {}
+[2022-11-01T21:30:43.310] [ERROR] everything - error inesperado {}
+[2022-11-01T21:30:47.139] [ERROR] everything - error inesperado {}
+[2022-11-01T21:30:50.889] [ERROR] everything - error inesperado {}
+[2022-11-01T21:30:54.706] [ERROR] everything - error inesperado {}
+[2022-11-01T21:30:58.435] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:02.284] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:06.224] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:06.226] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:09.969] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:13.909] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:17.849] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:21.686] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:23.197] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:25.459] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:29.286] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:29.485] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:33.003] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:36.931] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:40.631] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:44.380] [ERROR] everything - error inesperado {}
+[2022-11-01T21:31:44.529] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:07.421] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:11.251] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:15.030] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:19.048] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:21.907] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:22.927] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:27.035] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:30.801] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:34.572] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:38.382] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:42.050] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:45.739] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:49.527] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:53.246] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:56.964] [ERROR] everything - error inesperado {}
+[2022-11-01T21:32:59.447] [ERROR] everything - error inesperado {}
+[2022-11-01T21:33:00.816] [ERROR] everything - error inesperado {}
+[2022-11-01T21:33:04.552] [ERROR] everything - error inesperado {}
+[2022-11-01T21:33:08.321] [ERROR] everything - error inesperado {}
+[2022-11-01T21:33:12.006] [ERROR] everything - error inesperado {}
+[2022-11-01T21:33:15.890] [ERROR] everything - error inesperado {}
+[2022-11-01T21:33:19.583] [ERROR] everything - error inesperado {}
+[2022-11-01T21:33:23.269] [ERROR] everything - error inesperado {}
+[2022-11-01T21:47:41.394] [ERROR] everything - error inesperado {}
+[2022-11-01T21:47:41.532] [ERROR] everything - error inesperado {}
+[2022-11-01T21:47:41.591] [ERROR] everything - error inesperado {}
+[2022-11-01T21:47:45.151] [ERROR] everything - error inesperado {}
+[2022-11-01T21:47:48.851] [ERROR] everything - error inesperado {}
+[2022-11-01T21:47:52.610] [ERROR] everything - error inesperado {}
+[2022-11-01T21:47:56.467] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:00.366] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:04.165] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:07.963] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:11.782] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:15.450] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:19.278] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:23.000] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:26.716] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:30.376] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:34.085] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:37.973] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:41.734] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:45.452] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:49.160] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:52.839] [ERROR] everything - error inesperado {}
+[2022-11-01T21:48:56.527] [ERROR] everything - error inesperado {}
+[2022-11-01T21:49:00.297] [ERROR] everything - error inesperado {}
+[2022-11-01T21:49:04.026] [ERROR] everything - error inesperado {}
+[2022-11-01T21:49:07.894] [ERROR] everything - error inesperado {}
+[2022-11-01T21:49:11.572] [ERROR] everything - error inesperado {}
+[2022-11-01T21:49:34.616] [ERROR] everything - error inesperado {}
+[2022-11-01T21:49:38.343] [ERROR] everything - error inesperado {}
+[2022-11-01T21:49:41.993] [ERROR] everything - error inesperado {}
+[2022-11-01T21:49:45.870] [ERROR] everything - error inesperado {}
+[2022-11-01T21:49:49.530] [ERROR] everything - error inesperado {}
+[2022-11-01T21:49:53.258] [ERROR] everything - error inesperado {}
+[2022-11-01T21:49:56.958] [ERROR] everything - error inesperado {}
+[2022-11-01T21:50:00.777] [ERROR] everything - error inesperado {}
+[2022-11-01T21:50:04.525] [ERROR] everything - error inesperado {}
+[2022-11-01T21:50:08.394] [ERROR] everything - error inesperado {}
+[2022-11-01T21:50:12.201] [ERROR] everything - error inesperado {}
+[2022-11-01T21:50:16.071] [ERROR] everything - error inesperado {}
+[2022-11-01T21:50:19.980] [ERROR] everything - error inesperado {}
+[2022-11-01T21:50:26.913] [ERROR] everything - error inesperado {}
+[2022-11-01T21:50:30.715] [ERROR] everything - error inesperado {}
+[2022-11-01T21:50:37.584] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:50:41.474] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:50:45.311] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:50:49.140] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:50:53.039] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:50:56.988] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:51:00.889] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:51:05.025] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:51:08.902] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:51:12.278] [ERROR] everything - error inesperado {}
+[2022-11-01T21:51:12.632] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:51:36.576] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:51:40.364] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:51:44.121] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:51:48.001] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:51:51.870] [ERROR] everything - error inesperado {"message":"Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined"}
+[2022-11-01T21:51:55.670] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:51:59.526] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:01.298] [ERROR] everything - Cannot read property 'status' of undefined
+[2022-11-01T21:52:03.424] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:07.124] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:10.973] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:14.862] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:18.549] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:22.359] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:26.067] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:33.004] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:36.863] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:36.954] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T21:52:40.643] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:44.532] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:48.360] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:52.129] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:55.898] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:52:59.657] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:53:03.425] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:53:07.195] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:53:11.894] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:53:34.932] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T21:53:38.664] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:53:42.332] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:53:49.154] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:53:49.820] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T21:53:53.009] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:00.235] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:03.946] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:07.644] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:11.322] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:15.073] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:18.681] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:22.369] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:26.067] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:29.926] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:33.625] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:37.315] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:41.002] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:44.651] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:48.279] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:51.949] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:55.588] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:54:59.256] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:55:02.995] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:55:06.634] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:55:10.272] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:55:13.961] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:55:37.018] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T21:55:40.702] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:55:44.572] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:55:48.809] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:55:52.508] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:55:56.147] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:55:59.796] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:03.554] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:07.163] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:10.822] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:14.461] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:18.198] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:22.077] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:25.755] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:29.384] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:33.082] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:36.792] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:40.428] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:44.158] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:47.815] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:51.494] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:55.203] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:56:58.832] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:57:02.560] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:57:06.270] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:57:09.938] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:57:13.706] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:57:36.736] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T21:57:40.464] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:57:44.166] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:57:48.203] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:57:51.873] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:57:55.726] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:57:59.344] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:03.219] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:06.877] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:10.581] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:14.247] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:17.943] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:21.609] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:25.247] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:28.957] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:32.665] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:36.308] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:40.049] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:43.737] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:47.455] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:51.110] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:54.814] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:58:58.507] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:59:02.199] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:59:05.952] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:59:09.783] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:59:13.443] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:59:36.487] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T21:59:40.165] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:59:43.884] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:59:47.572] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:59:51.233] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:59:54.899] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T21:59:58.581] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:02.312] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:06.152] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:09.801] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:13.501] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:17.352] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:21.090] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:25.000] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:28.639] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:32.309] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:35.959] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:39.617] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:43.298] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:46.938] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:50.608] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:54.297] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:00:57.947] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:01:01.713] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:01:05.457] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:01:09.146] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:01:12.815] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:01:35.860] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:01:39.557] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:01:43.304] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:01:46.980] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:01:50.706] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:01:54.345] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:01:58.074] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:01.819] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:05.680] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:09.476] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:13.437] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:17.176] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:21.055] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:25.943] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:29.681] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:33.551] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:37.410] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:41.218] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:44.967] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:48.876] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:52.604] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:02:56.343] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:03:00.073] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:03:03.940] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:03:07.800] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:03:11.481] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:03:34.520] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:03:38.555] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:03:42.473] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:03:46.256] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:03:49.992] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:03:54.041] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:03:57.850] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:01.568] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:05.459] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:09.428] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:13.706] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:17.497] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:21.367] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:25.115] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:28.911] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:32.754] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:36.434] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:40.184] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:43.852] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:47.531] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:51.372] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:55.131] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:04:58.878] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:05:02.629] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:05:06.548] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:05:10.188] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:05:13.847] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:05:36.910] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:05:40.644] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:05:44.404] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:05:48.153] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:05:51.892] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:05:55.601] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:05:59.217] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:02.973] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:06.788] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:10.754] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:14.420] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:18.167] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:21.854] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:25.539] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:29.276] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:32.943] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:36.799] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:40.617] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:44.334] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:47.971] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:51.737] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:55.406] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:06:59.275] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:07:03.471] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:07:07.149] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:07:10.826] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:07:14.574] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:07:18.183] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:09:48.139] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:09:54.142] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:09:57.941] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:10:01.759] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:10:05.697] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:10:09.557] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:10:13.305] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:10:17.073] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:10:20.781] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:10:24.590] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:10:28.318] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:10:32.188] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:10:36.045] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:10:42.780] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:10:46.338] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T22:10:46.502] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:10:50.191] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:10:56.133] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T22:10:56.880] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:11:00.773] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:11:04.582] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:11:08.389] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:11:09.542] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T22:11:13.453] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:11:17.234] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:11:45.111] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:11:45.236] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T22:11:45.239] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T22:11:48.826] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:11:55.943] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:11:59.629] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:12:03.528] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:12:07.198] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:12:11.016] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:12:11.255] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T22:12:14.705] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:12:18.414] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:12:22.114] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:12:29.024] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:12:32.680] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:12:36.339] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:12:43.294] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:12:50.217] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T22:12:50.426] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:12:54.234] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:12:58.312] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:13:02.045] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:13:05.843] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:13:09.891] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:13:13.628] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:13:17.371] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:13:21.048] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:13:45.805] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:13:46.970] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T22:13:49.552] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:13:53.257] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:13:57.262] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:01.079] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:04.821] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:08.577] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:14.788] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:18.564] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:22.385] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:26.595] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:30.534] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:34.821] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:39.021] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:42.821] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:46.600] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:50.890] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:54.730] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:14:58.481] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:15:02.486] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:15:06.381] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:15:10.211] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:15:14.162] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:15:17.890] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:15:21.781] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:15:44.831] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:15:56.525] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:00.627] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:04.570] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:08.547] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:12.276] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:16.007] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:19.836] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:23.985] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:28.817] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:32.543] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:37.012] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:40.914] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:44.733] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:48.592] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:52.473] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:16:57.362] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:17:01.111] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:17:05.293] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:17:09.372] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:17:13.094] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:17:16.841] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:17:20.962] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:17:43.999] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:17:55.948] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:00.618] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:05.478] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:09.245] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:12.913] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:17.659] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:21.527] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:25.275] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:29.561] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:33.269] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:36.977] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:41.785] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:45.603] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:49.323] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:53.371] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:18:57.491] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:19:01.168] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:19:04.917] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:19:08.614] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:19:12.354] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:19:16.083] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:19:19.782] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:19:23.512] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:19:46.550] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:19:50.354] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:19:54.153] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:19:57.892] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:01.726] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:05.559] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:09.369] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:13.068] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:16.827] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:20.556] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:24.540] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:28.484] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:32.345] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:37.222] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:41.032] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:44.911] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:48.727] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:52.431] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:20:56.986] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:21:00.768] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:21:04.936] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:21:08.725] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:21:12.534] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:21:16.371] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:21:20.102] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:21:43.147] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:21:54.736] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:21:58.415] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:02.165] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:05.932] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:09.706] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:13.391] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:18.261] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:21.918] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:25.730] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:29.387] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:33.086] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:36.836] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:40.754] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:44.414] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:48.142] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:51.841] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:55.610] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:22:59.370] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:23:04.210] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:23:08.869] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:23:16.180] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:23:19.916] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:23:23.711] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:23:53.097] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:23:56.778] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:00.737] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:04.508] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:08.171] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:14.881] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:22.135] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:25.790] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:29.568] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:33.306] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:37.022] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:40.670] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:44.313] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:48.066] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:51.786] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:55.443] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:24:59.232] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:25:02.939] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:25:06.616] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:25:10.329] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:25:13.993] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:25:17.662] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:25:21.360] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:25:48.931] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:25:49.579] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:25:55.429] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:31:33.931] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:31:40.041] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:31:43.839] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:31:47.708] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:31:51.496] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:31:55.225] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:31:59.053] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:32:02.891] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:32:06.880] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:32:10.578] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:32:14.407] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:32:18.236] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:32:22.204] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:32:25.963] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:32:29.781] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:32:33.719] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:32:37.438] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:33:00.474] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:33:11.815] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:33:15.745] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:33:19.374] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:33:23.194] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:33:26.882] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:33:30.791] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:33:34.461] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:33:38.398] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:33:42.197] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:33:45.908] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:33:49.763] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:33:53.745] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:33:57.461] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:34:01.330] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:34:05.320] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:34:09.168] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:34:12.837] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:34:16.696] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:34:20.365] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:34:24.373] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:34:28.213] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:34:31.852] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:34:35.740] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:34:39.409] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:35:02.441] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:35:13.837] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:35:17.497] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:35:21.146] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:35:24.774] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:35:28.384] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:35:32.153] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:35:35.731] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:35:39.331] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:35:43.030] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:35:47.780] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:35:51.508] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:35:55.175] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:35:58.764] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:36:02.355] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:36:06.262] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:36:09.933] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:36:13.542] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:36:17.210] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:36:20.887] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:36:24.667] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:36:28.310] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:36:31.945] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:36:35.715] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:36:39.303] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:02.334] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:37:06.129] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:09.865] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:13.613] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:17.222] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:20.952] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:24.610] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:28.209] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:31.754] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:35.373] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:39.145] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:42.754] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:46.314] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:50.133] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:53.741] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:37:57.291] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:38:01.049] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:38:04.878] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:39:20.233] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:39:24.227] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:39:27.965] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:39:31.774] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:39:35.493] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:39:39.401] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:39:43.272] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:39:47.367] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:39:51.320] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:39:55.082] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:39:58.824] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:40:02.944] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:40:06.829] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:40:10.502] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:40:14.353] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:40:18.106] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:40:21.997] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:40:25.795] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:40:29.525] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:40:33.476] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:40:37.477] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:41:00.518] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:41:22.717] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:41:26.385] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:41:30.143] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:41:33.881] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:41:37.737] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:41:41.386] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:41:45.354] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:41:49.122] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:41:52.872] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:41:56.600] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:42:00.438] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:42:04.309] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:42:07.948] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:42:11.666] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:42:15.396] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:42:19.090] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:42:22.796] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:42:26.524] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:42:30.295] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:42:33.993] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:42:37.702] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:00.738] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:43:04.421] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:08.125] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:11.815] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:15.481] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:19.262] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:22.902] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:26.591] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:30.351] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:34.000] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:37.686] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:41.335] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:45.012] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:48.849] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:52.446] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:43:56.329] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:44:00.094] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:44:03.871] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:44:07.684] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:44:11.376] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:44:15.035] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:44:18.833] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:44:22.491] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:44:26.489] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:44:30.357] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:44:34.026] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:44:37.965] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:45:01.000] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:45:23.024] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:45:26.923] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:45:30.651] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:45:34.411] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:45:38.109] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:45:41.948] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:45:45.668] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:45:49.448] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:45:53.188] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:45:56.950] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:46:00.887] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:46:04.646] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:46:08.396] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:46:12.205] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:46:15.904] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:46:19.594] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:46:23.384] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:46:27.041] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:46:30.688] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:46:34.392] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:46:38.061] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:47:01.103] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:47:23.075] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:47:26.734] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:47:30.443] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:47:34.085] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:47:37.695] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:47:41.364] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:47:45.074] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:47:48.764] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:47:52.399] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:47:56.076] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:47:59.701] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:48:03.438] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:48:07.066] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:48:10.862] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:48:14.508] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:48:18.650] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:48:22.383] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:48:26.109] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:48:29.737] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:48:33.426] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:48:37.082] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:49:00.131] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:49:03.898] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:49:07.496] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:49:11.165] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:49:14.883] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:49:22.610] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:49:26.268] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:49:29.907] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:49:33.556] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:49:37.204] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:49:40.834] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:49:44.541] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:49:48.190] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:49:51.950] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:49:56.398] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:50:00.106] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:50:03.816] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:50:07.583] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:50:11.324] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:50:15.022] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:50:19.670] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:50:23.529] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:50:27.209] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:50:30.897] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:50:34.606] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:50:38.345] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:51:01.382] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:51:12.808] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:51:16.488] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:51:20.175] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:51:23.935] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:51:27.644] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:51:31.356] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:51:35.045] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:51:38.841] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:51:42.480] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:51:46.291] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:51:49.955] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:51:53.758] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:51:57.377] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:52:01.067] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:52:04.925] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:52:08.676] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:52:12.375] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:52:16.063] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:52:19.874] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:52:23.602] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:52:27.548] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:52:31.376] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:52:35.045] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:52:38.874] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:01.906] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:53:05.645] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:09.498] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:13.396] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:17.144] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:20.883] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:24.422] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:28.459] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:32.120] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:35.847] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:39.404] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:43.083] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:46.902] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:50.580] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:54.309] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:53:58.038] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:54:01.826] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:54:05.475] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:54:09.145] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:54:12.802] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:54:16.405] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:54:20.172] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:54:23.928] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:54:27.567] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:54:31.296] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:54:34.876] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:54:38.513] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:55:01.555] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:55:23.438] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:55:27.128] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:55:30.786] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:55:34.415] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:55:37.994] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:55:41.879] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:55:45.482] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:55:49.354] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:55:53.001] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:55:56.746] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:56:00.988] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:56:05.021] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:56:08.775] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:56:12.446] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:56:16.153] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:56:20.042] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:56:23.851] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:56:27.950] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:56:31.728] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:56:35.473] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:56:39.157] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:57:02.197] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:57:13.617] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:57:17.396] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:57:21.096] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:57:24.996] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:57:28.723] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:57:32.562] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:57:36.331] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:57:39.950] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:57:43.710] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:57:47.418] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:57:51.188] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:57:54.908] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:57:58.645] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:58:02.534] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:58:06.493] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:58:10.592] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:58:14.483] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:58:18.579] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:58:22.421] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:58:26.408] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:58:30.170] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:58:34.009] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:58:37.846] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:00.887] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T22:59:04.659] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:08.457] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:12.446] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:16.267] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:20.424] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:24.245] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:27.893] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:31.803] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:35.541] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:39.213] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:42.870] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:46.639] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:50.597] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:54.208] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T22:59:57.907] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:00:01.855] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:00:06.323] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:00:10.054] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:00:13.894] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:00:17.631] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:00:21.350] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:00:25.139] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:00:28.930] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:00:32.897] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:00:36.840] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:00:40.507] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:01:03.558] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T23:01:25.436] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:01:29.305] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:01:33.008] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:01:36.729] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:01:40.446] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:01:44.324] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:01:47.941] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:01:51.868] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:01:55.580] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:01:59.445] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:02:03.651] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:02:07.430] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:02:11.358] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:02:15.126] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:02:18.843] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:02:22.510] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:02:26.389] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:02:30.457] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:02:34.333] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:02:37.983] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:03:01.015] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T23:03:22.950] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:03:26.807] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:03:30.477] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:03:34.404] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:03:38.373] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:03:42.071] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:03:45.819] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:03:49.441] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:03:53.215] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:03:56.925] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:04:00.843] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:04:05.071] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:04:08.859] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:04:12.838] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:04:16.766] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:04:20.875] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:04:24.633] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:04:28.442] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:04:32.312] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:04:35.959] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:04:39.887] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:05:02.925] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T23:05:24.941] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:05:28.608] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:05:32.308] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:05:35.946] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:05:39.668] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:05:43.334] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:05:47.033] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:05:50.771] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:05:54.514] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:05:58.169] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:06:02.056] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:06:05.828] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:06:09.535] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:06:13.263] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:06:17.032] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:06:20.840] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:06:24.550] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:06:28.258] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:06:32.087] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:06:35.775] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:06:39.814] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:02.897] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T23:07:06.796] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:10.423] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:14.143] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:17.802] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:21.789] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:25.379] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:29.118] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:32.766] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:36.426] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:40.095] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:43.784] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:47.461] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:51.231] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:54.929] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:07:58.639] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:08:02.276] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:08:06.026] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:08:09.645] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:08:13.334] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:08:16.933] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:08:20.802] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:08:24.440] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:08:28.179] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:08:31.892] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:08:35.677] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:08:39.325] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:09:08.870] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:09:12.466] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:09:16.174] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:09:20.823] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:09:24.362] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:09:27.982] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:09:31.792] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:09:35.408] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:09:39.187] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:09:42.805] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:09:46.480] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:09:50.284] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:09:53.863] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:09:57.481] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:10:01.401] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:10:05.098] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:10:08.749] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:10:12.336] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:10:15.965] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:10:20.083] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-01T23:10:35.174] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T23:11:39.510] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T23:11:45.670] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T23:13:04.040] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T23:14:04.291] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T23:14:34.440] [ERROR] everything - Cannot read property 'quantity' of undefined
+[2022-11-01T23:15:39.095] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-01T23:16:18.410] [ERROR] everything - Request failed with status code 401
+[2022-11-02T09:01:26.070] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:01:50.581] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:01:54.251] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:01:57.843] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:02:01.445] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:02:05.118] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:02:08.904] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:02:11.821] [ERROR] everything - Request failed with status code 401
+[2022-11-02T09:03:40.135] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:05:02.008] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:05:21.945] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:12:36.814] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:12:40.554] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:12:44.091] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:12:47.695] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:12:51.504] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:12:55.092] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:12:58.643] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T09:13:02.463] [ERROR] everything - Cannot read property 'Symbol(Symbol.asyncIterator)' of undefined
+[2022-11-02T11:58:23.597] [ERROR] everything - Error al refrescar token
+[2022-11-02T11:59:23.177] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:00:23.174] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:01:23.180] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:02:23.186] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:03:23.164] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:04:41.235] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:12:41.686] [ERROR] everything - error inesperado {}
+[2022-11-02T12:14:41.670] [ERROR] everything - error inesperado {}
+[2022-11-02T12:15:41.732] [ERROR] everything - error inesperado {}
+[2022-11-02T12:16:41.671] [ERROR] everything - error inesperado {}
+[2022-11-02T12:16:48.158] [ERROR] everything - error inesperado {}
+[2022-11-02T12:17:19.969] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:17:35.254] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:17:41.677] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:17:51.195] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:18:27.277] [ERROR] everything - error inesperado {}
+[2022-11-02T12:18:29.654] [ERROR] everything - error inesperado {}
+[2022-11-02T12:18:41.706] [ERROR] everything - error inesperado {}
+[2022-11-02T12:18:46.030] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:19:41.246] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:25:49.372] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:26:49.395] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:27:49.392] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:28:49.359] [ERROR] everything - Error al refrescar token
+[2022-11-02T12:30:08.025] [ERROR] everything - Error al refrescar token
+[2022-11-02T14:54:35.828] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:54:35.832] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:54:39.783] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:54:39.784] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:54:43.758] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:54:43.759] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:54:47.905] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:54:47.906] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:54:51.833] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:54:51.833] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:54:55.781] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:54:55.781] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:54:59.758] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:54:59.759] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:55:03.949] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:55:03.950] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:55:08.019] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:55:08.019] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:55:11.979] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:55:11.980] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:55:16.166] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:55:16.166] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:55:20.046] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:55:20.047] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:55:24.107] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:55:24.108] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:55:28.374] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:55:28.374] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:55:32.245] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:55:32.245] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:55:36.276] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:55:36.277] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:55:40.214] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:55:40.214] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:55:44.222] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:55:44.222] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:55:48.229] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:55:48.229] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:55:52.202] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:55:52.202] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:55:56.138] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:55:56.138] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:00.015] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:00.015] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:04.164] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:04.165] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:08.026] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:08.026] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:12.060] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:12.060] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:16.066] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:16.067] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:20.046] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:20.046] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:23.939] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:23.939] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:27.968] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:27.969] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:31.926] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:31.927] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:35.937] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:35.938] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:39.881] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:39.882] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:43.814] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:43.814] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:47.759] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:47.759] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:51.614] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:51.615] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:55.670] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:55.671] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:56:59.544] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:56:59.545] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:03.706] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:03.707] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:07.563] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:07.563] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:11.461] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:11.461] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:15.458] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:15.458] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:19.399] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:19.399] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:23.248] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:23.248] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:27.204] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:27.205] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:31.222] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:31.223] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:35.097] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:35.098] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:38.942] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:38.943] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:42.897] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:42.897] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:46.863] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:46.863] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:50.840] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:50.841] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:54.875] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:54.876] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:57:58.894] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:57:58.895] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:02.888] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:02.889] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:06.802] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:06.803] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:10.743] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:10.744] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:14.682] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:14.683] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:18.662] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:18.663] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:22.493] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:22.493] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:26.741] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:26.741] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:30.683] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:30.683] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:34.697] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:34.697] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:38.694] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:38.694] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:42.560] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:42.561] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:46.719] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:46.720] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:50.629] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:50.629] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:54.729] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:54.729] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:58:58.677] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:58:58.677] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:59:02.761] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:59:02.762] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:59:06.698] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:59:06.699] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:59:10.722] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:59:10.722] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:59:14.729] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:59:14.729] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:59:18.737] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:59:18.737] [ERROR] everything - Request failed with status code 401
+[2022-11-02T14:59:23.710] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T14:59:23.710] [ERROR] everything - Request failed with status code 401
+[2022-11-02T15:03:15.518] [INFO] everything - TOMATE PERITA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-02T15:03:15.518] [ERROR] everything - Request failed with status code 401
+[2022-11-02T15:05:46.206] [INFO] everything - PLATANO 500GRsetItemToCartEl producto que intentas agregar no está disponible.
+[2022-11-02T15:09:14.931] [INFO] everything - ZANAHORIA 500GRsetItemToCartEl producto que intentas agregar no está disponible.
+[2022-11-02T15:09:51.607] [INFO] everything - ZANAHORIA 500GRsetItemToCartEl producto que intentas agregar no está disponible.
+[2022-11-02T15:10:16.533] [INFO] everything - PIMENTON 600GRsetItemToCartEl producto que intentas agregar no está disponible.
+[2022-11-02T15:12:52.831] [INFO] everything - PLATANO 500GRsetItemToCartEl producto que intentas agregar no está disponible.
+[2022-11-02T15:12:54.848] [INFO] everything - PLATANO 500GRsetItemToCartEl producto que intentas agregar no está disponible.
+[2022-11-02T15:13:11.791] [INFO] everything - PLATANO 500GRsetItemToCartEl producto que intentas agregar no está disponible.
+[2022-11-22T14:38:27.278] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:38:43.735] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T14:39:34.366] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:40:34.365] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:41:34.363] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:42:12.032] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T14:42:55.009] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:43:33.208] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T14:43:53.919] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T14:43:55.010] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:44:55.010] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:45:43.991] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T14:45:49.219] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T14:45:55.011] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:46:55.010] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:47:11.085] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T14:47:45.671] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T14:47:52.919] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T14:48:30.087] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T14:48:36.163] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:49:31.400] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T14:49:36.159] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:50:36.159] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:51:36.161] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:52:39.896] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:53:39.907] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:55:23.020] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:57:06.093] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:58:14.385] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:59:14.382] [ERROR] everything - Error al refrescar token
+[2022-11-22T14:59:19.021] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T14:59:39.208] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:00:05.469] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:00:14.376] [ERROR] everything - Error al refrescar token
+[2022-11-22T15:00:51.302] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:01:33.366] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:02:20.901] [ERROR] everything - Error al refrescar token
+[2022-11-22T15:02:39.403] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:04:03.446] [ERROR] everything - Error al refrescar token
+[2022-11-22T15:04:43.392] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:05:39.230] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T15:06:44.220] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T15:09:01.413] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:09:44.212] [ERROR] everything - Error al refrescar token
+[2022-11-22T15:10:44.213] [ERROR] everything - Error al refrescar token
+[2022-11-22T15:11:45.519] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:12:33.930] [ERROR] everything - el shipping_carrier_code es requerido
+[2022-11-22T15:13:36.696] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:13:44.372] [ERROR] everything - el shipping_carrier_code es requerido
+[2022-11-22T15:14:44.426] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:14:53.444] [ERROR] everything - el shipping_carrier_code es requerido
+[2022-11-22T15:15:08.377] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-11-22T15:15:08.381] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-11-22T15:15:15.812] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-11-22T15:15:15.815] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-11-22T15:15:25.235] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-11-22T15:15:25.240] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-11-22T15:15:25.421] [ERROR] everything - Error al refrescar token
+[2022-11-22T15:16:06.853] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:16:14.218] [ERROR] everything - el shipping_carrier_code es requerido
+[2022-11-22T15:17:21.053] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T15:17:26.595] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:17:47.247] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:18:28.654] [ERROR] everything - el shipping_carrier_code es requerido
+[2022-11-22T15:21:33.338] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:22:08.745] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:24:51.902] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T15:26:07.243] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T15:27:02.019] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T15:34:35.480] [ERROR] everything - error inesperado {}
+[2022-11-22T15:34:43.670] [ERROR] everything - error inesperado {}
+[2022-11-22T15:37:57.785] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T15:39:23.574] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T15:41:58.464] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T15:54:44.237] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T15:59:41.344] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T16:00:20.592] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T16:01:02.568] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T16:01:54.300] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T16:02:49.243] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T16:04:11.475] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T16:06:03.071] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T16:07:50.185] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T16:08:47.731] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T16:10:38.118] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T16:12:16.905] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T16:14:01.179] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T16:17:07.495] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T16:18:12.530] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T16:18:35.398] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T16:24:37.059] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T16:33:02.084] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T16:34:24.555] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T16:34:51.843] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T16:38:47.988] [INFO] everything - PRIMOR CREMA ARROZ ENRIQUECI 900GRsetItemToCartEl producto que intentas agregar no está disponible.
+[2022-11-22T16:38:52.859] [INFO] everything - PRIMOR CREMA ARROZ ENRIQUECI 900GRsetItemToCartEl producto que intentas agregar no está disponible.
+[2022-11-22T16:38:54.117] [INFO] everything - TODDY BOLSA 1KGsetItemToCartEl producto que intentas agregar no está disponible.
+[2022-11-22T16:38:54.732] [INFO] everything - TODDY 2 KGsetItemToCartEl producto que intentas agregar no está disponible.
+[2022-11-22T16:44:25.590] [INFO] everything - PLATANO 500GRsetItemToCartEl producto que intentas agregar no está disponible.
+[2022-11-22T16:46:27.264] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T16:50:37.721] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T16:51:11.679] [ERROR] everything - Error al refrescar token
+[2022-11-22T16:51:26.238] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T16:53:18.225] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T16:54:04.864] [ERROR] everything - Error al refrescar token
+[2022-11-22T16:55:04.839] [ERROR] everything - Error al refrescar token
+[2022-11-22T16:55:10.702] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T16:56:28.025] [ERROR] everything - Error al refrescar token
+[2022-11-22T16:59:01.004] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:00:50.698] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:01:50.671] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:02:50.689] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:03:50.690] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:05:11.625] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:06:56.150] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T17:07:03.507] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T17:07:14.863] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:08:13.940] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T17:09:30.395] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T17:10:12.979] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:11:17.556] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T17:11:38.566] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T17:11:45.536] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T17:11:50.929] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T17:12:48.462] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T17:12:59.275] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:13:24.619] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T17:14:05.587] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:15:05.605] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:16:05.581] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:16:39.866] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T17:18:07.520] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:18:44.976] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T17:19:07.522] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:20:07.548] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:21:08.291] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:22:08.289] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:23:08.263] [ERROR] everything - Error al refrescar token
+[2022-11-22T17:24:08.290] [ERROR] everything - Error al refrescar token
+[2022-11-22T21:12:27.854] [ERROR] everything - error inesperado {}
+[2022-11-22T21:12:46.292] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T21:13:23.728] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T21:18:53.408] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T21:19:14.107] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T21:20:37.871] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T21:21:06.018] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T21:33:21.453] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T21:35:46.390] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T21:35:54.584] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T21:36:28.681] [ERROR] everything - getaddrinfo EAI_AGAIN beta.biomercados.com.ve
+[2022-11-22T21:36:33.718] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T21:39:39.216] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T21:40:50.323] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T21:41:29.259] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T21:42:28.293] [ERROR] everything - error inesperado {}
+[2022-11-22T21:42:28.297] [ERROR] everything - error inesperado {}
+[2022-11-22T21:42:46.516] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T21:42:53.886] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T21:43:05.154] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T21:45:22.392] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T21:45:42.242] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T21:46:02.341] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-22T21:46:29.143] [ERROR] everything - error inesperado {}
+[2022-11-22T21:47:50.677] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T21:48:29.476] [ERROR] everything - error inesperado {}
+[2022-11-22T21:49:25.475] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-22T21:52:28.859] [ERROR] everything - error inesperado {}
+[2022-11-23T18:40:18.677] [ERROR] everything - error inesperado {}
+[2022-11-23T18:40:19.037] [ERROR] everything - self signed certificate
+[2022-11-23T18:40:20.118] [ERROR] everything - error inesperado {}
+[2022-11-23T18:40:23.712] [ERROR] everything - error inesperado {}
+[2022-11-23T18:41:19.327] [ERROR] everything - Error al refrescar token
+[2022-11-23T18:42:14.086] [ERROR] everything - error inesperado {}
+[2022-11-23T18:42:19.319] [ERROR] everything - Error al refrescar token
+[2022-11-23T18:43:19.329] [ERROR] everything - Error al refrescar token
+[2022-11-23T18:44:19.314] [ERROR] everything - Error al refrescar token
+[2022-11-23T18:44:25.103] [ERROR] everything - error inesperado {}
+[2022-11-23T18:45:06.542] [ERROR] everything - El id del usuario debe ser numerico
+[2022-11-23T18:45:28.758] [ERROR] everything - error inesperado {}
+[2022-11-23T18:45:33.066] [ERROR] everything - error inesperado {}
+[2022-11-23T18:45:43.475] [ERROR] everything - error inesperado {}
+[2022-11-23T18:45:56.319] [ERROR] everything - Error al refrescar token
+[2022-11-23T18:46:11.925] [ERROR] everything - error inesperado {}
+[2022-11-23T18:46:56.322] [ERROR] everything - Error al refrescar token
+[2022-11-23T18:47:56.339] [ERROR] everything - Error al refrescar token
+[2022-11-23T18:48:56.323] [ERROR] everything - Error al refrescar token
+[2022-11-23T18:49:19.372] [ERROR] everything - error inesperado {}
+[2022-11-23T18:49:43.608] [ERROR] everything - error inesperado {}
+[2022-11-23T18:49:55.849] [ERROR] everything - error inesperado {}
+[2022-11-23T18:49:56.354] [ERROR] everything - Error al refrescar token
+[2022-11-23T18:50:10.030] [ERROR] everything - error inesperado {}
+[2022-11-23T18:50:15.968] [ERROR] everything - error inesperado {}
+[2022-11-23T18:50:22.129] [ERROR] everything - error inesperado {}
+[2022-11-23T18:50:56.323] [ERROR] everything - Error al refrescar token
+[2022-11-23T18:51:35.598] [ERROR] everything - error inesperado {}
+[2022-11-23T18:51:56.325] [ERROR] everything - Error al refrescar token
+[2022-11-23T18:52:09.556] [ERROR] everything - error inesperado {}
+[2022-11-23T18:52:45.384] [ERROR] everything - error inesperado {}
+[2022-11-23T18:52:45.387] [ERROR] everything - error inesperado {}
+[2022-11-23T18:52:56.324] [ERROR] everything - Error al refrescar token
+[2022-11-23T18:53:34.507] [ERROR] everything - Error al refrescar token
+[2022-11-23T18:53:36.898] [ERROR] everything - Request failed with status code 404
+[2022-11-23T18:53:45.987] [ERROR] everything - error inesperado {}
+[2022-11-23T18:53:46.055] [ERROR] everything - El correo electrónico suministrado no existe, por favor revisar e intentar nuevamente
+[2022-11-23T18:54:37.084] [ERROR] everything - error inesperado {}
+[2022-11-23T18:55:28.146] [ERROR] everything - error inesperado {}
+[2022-11-23T18:56:29.704] [ERROR] everything - error inesperado {}
+[2022-11-23T18:56:46.195] [ERROR] everything - error inesperado {}
+[2022-11-23T18:57:00.622] [ERROR] everything - error inesperado {}
+[2022-11-23T18:58:58.309] [ERROR] everything - Request failed with status code 400
+[2022-11-23T18:59:03.438] [ERROR] everything - Request failed with status code 400
+[2022-11-23T18:59:09.867] [ERROR] everything - Request failed with status code 400
+[2022-11-23T19:11:39.066] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:11:49.795] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:11:54.792] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:11:59.790] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:12:07.200] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:12:07.580] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:12:12.199] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:12:12.560] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:12:17.191] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:12:17.565] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:12:22.199] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:12:22.563] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:12:27.196] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:12:27.552] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:12:32.199] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:12:32.558] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:12:37.190] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:12:37.562] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:12:42.197] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:12:42.566] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:12:47.196] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:12:47.566] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:12:52.200] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:12:52.563] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:12:57.195] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:12:57.561] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:13:02.198] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:13:02.573] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:13:07.194] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:13:07.551] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:13:12.192] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:13:12.572] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:13:17.190] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:13:17.584] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:13:27.694] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:13:28.004] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:13:32.682] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:13:33.013] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:13:37.691] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:13:37.998] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:13:42.687] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:13:42.998] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:13:49.111] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:13:49.479] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:13:54.113] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:13:54.476] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:13:59.103] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:13:59.478] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:14:04.110] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:14:04.485] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:14:10.697] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:14:10.912] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:14:15.688] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:14:15.902] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:14:20.695] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:14:20.925] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:14:25.692] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:14:25.899] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:14:30.697] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:14:30.913] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:14:41.235] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:14:41.413] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:14:46.250] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:14:46.410] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:14:51.230] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:14:51.403] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:14:56.240] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:14:56.413] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:15:04.958] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:15:05.172] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:15:09.957] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:15:10.172] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:15:14.958] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:15:15.169] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:15:19.958] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:15:20.172] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:15:29.735] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:15:29.831] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:15:34.733] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:15:34.831] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:15:39.727] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:15:39.835] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:15:46.961] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:15:47.249] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:15:51.952] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:15:52.250] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:15:56.954] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:15:57.241] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:16:01.960] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:16:02.241] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:16:06.956] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:16:07.246] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:16:11.962] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:16:12.260] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:16:16.956] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:16:17.244] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:16:21.957] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:16:22.255] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:16:26.954] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:16:27.250] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:16:31.957] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:16:32.244] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:16:36.958] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:16:37.253] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:16:41.952] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:16:42.237] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:16:46.961] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:16:47.256] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:16:51.957] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:16:52.241] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:16:56.959] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:16:57.247] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:17:01.957] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:17:02.260] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:17:06.959] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:17:07.256] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:17:11.957] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:17:12.249] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:17:16.956] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:17:17.240] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:17:24.931] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:17:24.934] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:17:29.931] [ERROR] everything - El token es requerido
+[2022-11-23T19:17:29.932] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:17:34.929] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:17:44.027] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:17:49.036] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:17:54.017] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:17:59.038] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:18:04.041] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:18:09.040] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:18:13.996] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:18:17.523] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:18:19.005] [ERROR] everything - El token es requerido
+[2022-11-23T19:18:22.522] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:18:23.995] [ERROR] everything - El token es requerido
+[2022-11-23T19:18:27.520] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:18:32.519] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:18:37.486] [ERROR] everything - El token es requerido
+[2022-11-23T19:18:42.484] [ERROR] everything - El token es requerido
+[2022-11-23T19:18:47.481] [ERROR] everything - El token es requerido
+[2022-11-23T19:18:52.487] [ERROR] everything - El token es requerido
+[2022-11-23T19:18:57.483] [ERROR] everything - El token es requerido
+[2022-11-23T19:18:59.738] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:19:02.487] [ERROR] everything - El token es requerido
+[2022-11-23T19:19:04.731] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:19:07.483] [ERROR] everything - El token es requerido
+[2022-11-23T19:19:09.732] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:19:12.482] [ERROR] everything - El token es requerido
+[2022-11-23T19:19:14.734] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:19:17.487] [ERROR] everything - El token es requerido
+[2022-11-23T19:19:19.749] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:19:22.483] [ERROR] everything - El token es requerido
+[2022-11-23T19:19:24.737] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:19:27.486] [ERROR] everything - El token es requerido
+[2022-11-23T19:19:29.741] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:19:32.484] [ERROR] everything - El token es requerido
+[2022-11-23T19:19:34.745] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:19:37.487] [ERROR] everything - El token es requerido
+[2022-11-23T19:19:39.747] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:19:56.158] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:20:01.154] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:20:06.163] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:20:25.845] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:20:30.832] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:20:35.827] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:20:40.837] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:20:45.837] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:20:50.836] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:22:04.643] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:22:04.949] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:22:09.632] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:22:14.641] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:22:19.630] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:22:24.644] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:22:29.632] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:22:34.650] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:22:39.637] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:22:44.647] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:22:49.640] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:22:54.640] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:22:59.642] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:23:04.640] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:23:09.642] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:23:14.644] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:23:19.641] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:23:24.646] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:23:29.642] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:23:34.644] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:23:39.647] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:23:44.640] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:23:49.648] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:23:54.639] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:24:04.430] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:24:09.434] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:24:20.424] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:24:25.425] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:24:30.449] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:24:35.422] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:24:40.422] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:24:56.389] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:25:01.290] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:25:06.294] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:25:11.291] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:25:16.264] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:25:20.968] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:25:25.967] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:25:30.966] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:25:35.968] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:25:40.976] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:25:45.975] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:25:50.970] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:25:55.974] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:26:00.973] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:26:05.977] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:26:10.974] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:26:15.983] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:26:26.931] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:26:31.893] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:26:35.845] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:26:40.841] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:26:45.831] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:26:50.841] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:26:55.835] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:27:06.945] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:27:14.313] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:27:19.292] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:27:24.300] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:27:29.299] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:27:34.309] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:27:39.293] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:27:47.890] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:27:52.897] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:27:57.898] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:28:02.899] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:28:07.892] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:28:12.888] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:28:17.900] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:28:22.898] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:28:27.904] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:28:32.892] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:28:37.904] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:28:42.894] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:28:47.896] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:28:52.897] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:28:57.901] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:28:58.562] [ERROR] everything - El token es requerido
+[2022-11-23T19:29:02.888] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:29:04.208] [ERROR] everything - El token es requerido
+[2022-11-23T19:29:05.184] [ERROR] everything - El token es requerido
+[2022-11-23T19:29:05.587] [ERROR] everything - El token es requerido
+[2022-11-23T19:29:05.777] [ERROR] everything - El token es requerido
+[2022-11-23T19:29:07.899] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:29:07.937] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:29:12.895] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:29:17.405] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:29:17.896] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:29:22.897] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:29:27.896] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:29:33.384] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:29:38.346] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:29:43.350] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:29:48.345] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:29:53.346] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:29:58.354] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:30:03.348] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:30:08.350] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:30:13.352] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:30:18.344] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:30:23.348] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:30:28.345] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:30:33.350] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:30:38.345] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:30:43.349] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:30:48.343] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:30:53.346] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:30:58.350] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:31:03.354] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:31:08.345] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:31:13.354] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:31:18.348] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:31:23.350] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:31:28.523] [ERROR] everything - Solicitud no coincide con ninguna ruta.
+[2022-11-23T19:34:40.507] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:42:04.247] [ERROR] everything - Error al refrescar token
+[2022-11-23T19:43:44.776] [ERROR] everything - Portador con tal método no encontrado: %1, %2
+[2022-11-23T19:47:08.518] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-23T19:52:41.700] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-23T19:53:29.973] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-23T19:54:51.406] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-23T19:55:41.106] [ERROR] everything - Los datos ingresados son incorrectos o su cuenta esta deshabilitada. Por favor verifique sus datos e intentelo nuevamente.
+[2022-11-23T19:56:02.272] [ERROR] everything - Los datos ingresados son incorrectos o su cuenta esta deshabilitada. Por favor verifique sus datos e intentelo nuevamente.
+[2022-11-23T20:11:02.787] [ERROR] everything - El id de la categoria debe ser numerico
+[2022-11-24T08:45:43.042] [ERROR] everything - Error al refrescar token
+[2022-11-24T08:49:43.583] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:51:20.931] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:51:55.187] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:52:59.255] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:53:06.361] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:53:42.058] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:53:58.731] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:54:12.002] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:54:21.940] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:54:29.330] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:54:43.764] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:55:54.444] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:56:01.039] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:56:12.365] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:56:19.009] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:56:28.232] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:57:06.122] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:57:52.564] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:58:02.053] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:58:16.926] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:58:55.377] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:59:09.493] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:59:19.000] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:59:42.425] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T08:59:53.211] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:00:06.578] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:00:18.415] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:00:24.808] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:00:37.776] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:01:18.283] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:01:34.180] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:02:08.282] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:03:14.841] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:03:48.373] [INFO] everything - CEBOLLA BLANCA 500GRupdateItemToCartThe consumer isn't authorized to access %resources.
+[2022-11-24T09:03:48.374] [ERROR] everything - Request failed with status code 401
+[2022-11-24T09:20:38.501] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:26:00.100] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:26:25.067] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:27:15.126] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:27:32.066] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:30:25.300] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:31:20.502] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:31:49.378] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:32:54.020] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:33:18.655] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:33:37.221] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:34:11.688] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:36:06.602] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:36:15.522] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:36:28.231] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:36:55.134] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:37:06.599] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:37:21.038] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:37:26.271] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:37:43.538] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:37:58.017] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:43:04.967] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:43:21.027] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:43:27.501] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:43:33.677] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:44:03.375] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:44:11.914] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:44:37.330] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:44:44.176] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:44:48.668] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:45:11.960] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:45:30.103] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:46:15.765] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:47:26.774] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:48:39.837] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:49:22.840] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:49:33.252] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:49:43.076] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:50:11.373] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:50:31.431] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:50:47.300] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T09:51:28.208] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:21:20.021] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:21:24.545] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:22:32.147] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:23:08.051] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:23:13.792] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:25:32.700] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:26:01.982] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:27:32.452] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:27:46.033] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:28:04.489] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:28:27.752] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:28:48.592] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:28:57.385] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:29:44.764] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:30:32.045] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:33:44.659] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:34:12.015] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:34:14.449] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:35:17.746] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:35:42.908] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:38:32.040] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:38:42.639] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:39:07.096] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:40:32.187] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:42:45.778] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:43:24.607] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:43:39.411] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:44:20.115] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:50:41.282] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:54:25.586] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:54:51.195] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:55:48.812] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T10:57:35.693] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:03:30.235] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:04:12.034] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:04:41.458] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:07:08.173] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:07:19.579] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:07:30.381] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:08:33.635] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:09:16.731] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:14:55.930] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:15:23.297] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:16:14.718] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:16:31.290] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:17:27.895] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:17:55.697] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:19:55.628] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:20:29.675] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:20:53.930] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:21:59.073] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:22:25.977] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:22:49.283] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:23:35.950] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:24:07.865] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:30:15.221] [ERROR] everything - el shipping_method_code es requerido
+[2022-11-24T11:40:00.554] [ERROR] everything - Error al refrescar token
+[2022-11-24T11:40:01.320] [ERROR] everything - Error al refrescar token
+[2022-11-24T11:40:21.462] [ERROR] everything - El token no existe.
+[2022-11-24T11:40:21.979] [ERROR] everything - El token no existe.
+[2022-11-24T11:40:22.489] [ERROR] everything - El token no existe.
+[2022-11-24T11:40:28.057] [ERROR] everything - El token invalido.
+[2022-11-24T11:41:03.271] [ERROR] everything - El token invalido.
+[2022-11-24T11:41:03.956] [ERROR] everything - El token invalido.
+[2022-11-24T11:41:04.552] [ERROR] everything - El token invalido.
+[2022-11-24T11:41:05.146] [ERROR] everything - El token invalido.
+[2022-11-24T11:41:10.980] [ERROR] everything - error inesperado {}
+[2022-11-24T11:41:11.578] [ERROR] everything - error inesperado {}
+[2022-11-24T11:41:38.383] [ERROR] everything - error inesperado {}
+[2022-11-24T11:41:38.972] [ERROR] everything - error inesperado {}
+[2022-11-24T11:41:39.485] [ERROR] everything - error inesperado {}
