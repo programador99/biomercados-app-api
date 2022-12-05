@@ -213,20 +213,26 @@ export const getProductsMoreSeller = async (storeId, isAdult, page, size) => {
     }
     let categories = await ProductMoreSeller.find({ storeId }, { _id: 0, __v: 0 }, paginate).populate('products');
     if (!isAdult) {
-        categories = await extractProductRestrinted(categories);
+        categories = await extractProductRestricted(categories);
     }
     return formatProductsMoreSeller(categories, storeId);
 }
 
-export const extractProductRestrinted = async (categories) => {
+export const extractProductRestricted = async (categories) => {
     let categoriesFormat = [];
     for (const category of categories) {
-        let newProducts = []
-        category.products.forEach(product => {
-            if (!product.isAgeRestricted) {
-                newProducts.push(product)
+        let newProducts = category.products.map(product => {
+            if(!product.isAgeRestricted) {
+                return product;
+            } else {
+                return null;
             }
-        })
+        }).filter(product => product);
+        // category.products.forEach(product => {
+        //     if (!product.isAgeRestricted) {
+        //         newProducts.push(product)
+        //     }
+        // })
         category.products = newProducts;
         categoriesFormat.push(category);
     }
