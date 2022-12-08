@@ -15,9 +15,9 @@ RUN cd /tmp/builder && \
 
 WORKDIR /var/www
 
-# COPY package*.json .env ./
 COPY package*.json ./
-COPY .env .env
+COPY .env.example .env
+#COPY .env .env
 
 RUN npm install --production && rm -rf /tmp/builder/
 
