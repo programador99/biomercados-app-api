@@ -1,5 +1,5 @@
 import express from "express";
-import { customerCreateOrder, customerShippingMethods, getPaymentMethod, getShippingInformation, getShippingMethod } from "../services/payment";
+import { customerCreateOrder, customerShippingMethods, getPaymentInformation, getPaymentMethod, getShippingInformation, getShippingMethod, getShippingMethodByAddressId } from "../services/payment";
 import paymentMethod from "../models/paymentmethod";
 import PaymentBank from "../models/paymentBank"
 import { registerLogError } from "../middlewares/registerLog";
@@ -8,11 +8,11 @@ let router = express.Router();
 
 router.get('/get-payment-methods', async (req, res) => {
     try {
-        const { cartId } = req.query;
+        const { cartId, customer_token } = req.query;
         if (!cartId) {
             throw { code: 400, message: 'El cartId es necesario' }
         }
-        const response = await getPaymentMethod(cartId).catch(e => {
+        const response = await getPaymentInformation(customer_token).catch(e => {
             throw { code: e.response.status, message: e.response.data.message }
         });
 
@@ -25,7 +25,7 @@ router.get('/get-payment-methods', async (req, res) => {
 
                 payment = JSON.parse(JSON.stringify(payment));
 
-                payment && paymentmethods.push({...method, ...payment});
+                payment && paymentmethods.push({ ...method, ...payment });
             }
         }
 
@@ -33,7 +33,7 @@ router.get('/get-payment-methods', async (req, res) => {
 
     } catch (error) {
         if (error.code && error.message) {
-            registerLogError( error.message);
+            registerLogError(error.message);
             res.status(error.code).json(error.message);
         } else {
             registerLogError('error inesperado ' + JSON.stringify(error));
@@ -41,6 +41,7 @@ router.get('/get-payment-methods', async (req, res) => {
         }
     }
 })
+
 router.get('/get-shipping-methods', async (req, res) => {
     try {
         const { cartId } = req.query;
@@ -54,7 +55,7 @@ router.get('/get-shipping-methods', async (req, res) => {
 
     } catch (error) {
         if (error.code && error.message) {
-            registerLogError( error.message);
+            registerLogError(error.message);
             res.status(error.code).json(error.message);
         } else {
             registerLogError('error inesperado ' + JSON.stringify(error));
@@ -63,11 +64,14 @@ router.get('/get-shipping-methods', async (req, res) => {
     }
 })
 
+
+
 router.post('/get-shipping-methods', async (req, res) => {
     try {
         const params = req.body;
 
-        const response = await customerShippingMethods(params).catch(e => {
+        // const response = await customerShippingMethods(params).catch(e => {
+        const response = await getShippingMethodByAddressId(params).catch(e => {
             throw { code: e.response.status, message: e.response.data.message }
         });
         res.status(200).json(response);
@@ -123,13 +127,13 @@ router.post('/cuotization', async (req, res) => {
         const paymentBanks = await PaymentBank.find();
 
         cuotization.payment_methods = cuotization.payment_methods.map(pm => {
-          const pb = paymentBanks.find(current => current.code === pm.code);
+            const pb = paymentBanks.find(current => current.code === pm.code);
 
-          return {
-            ...pm,
-            banks: pb?.banks ?? [],
-            currency: pb?.currency ?? 2
-          }
+            return {
+                ...pm,
+                banks: pb?.banks ?? [],
+                currency: pb?.currency ?? 2
+            }
         })
 
         res.json(cuotization);

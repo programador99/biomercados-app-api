@@ -2,20 +2,32 @@ import { httpGet, httpPost } from "./axios"
 import { getCustomerById } from "./users"
 
 
-export const getShippingMethod = async(cartId) =>{
+export const getShippingMethod = async (cartId) => {
     const url = 'rest/V1/carts/' + cartId + '/shipping-methods';
     return await httpGet(url);
 }
 
-export const getPaymentMethod = async(cartId) =>{
+export const getShippingMethodByAddressId = async (params) => {
+    const { customer_token, addressId } = params;
+    const url = 'rest/V1/carts/mine/estimate-shipping-methods-by-address-id';
+    console.info(customer_token, addressId)
+    return await httpPost(url, { addressId }, customer_token);
+}
+
+export const getPaymentMethod = async (cartId) => {
     const url = 'rest/V1/carts/' + cartId + '/payment-methods';
     return await httpGet(url);
+}
+
+export const getPaymentInformation = async (customer_token) => {
+    const url = 'rest/V1/carts/mine/payment-information';
+    return await httpGet(url, customer_token);
 }
 
 export const customerShippingMethods = async (params) => {
     const { store_view, customer_id, customer_token, billing_address_id, cart_id } = params;
     const customer = await getCustomerById(customer_id);
-    
+
     if (customer) {
         const customerAddress = customer.addresses.find(address => address.id == billing_address_id);
 
@@ -37,7 +49,7 @@ export const customerShippingMethods = async (params) => {
                     same_as_billing: 1
                 }
             };
-            
+
             const shippingMethods = await httpPost(`rest/${store_view}/V1/carts/mine/estimate-shipping-methods`, payload, customer_token);
             return shippingMethods;
         }
@@ -97,7 +109,7 @@ export const getShippingInformation = async (params) => {
 
         return null;
     }
-}; 
+};
 
 export const customerCreateOrder = async (params) => {
     const { store_view, customer_id, customer_token, shipping_address_id, payment_method } = params;
@@ -126,8 +138,8 @@ export const customerCreateOrder = async (params) => {
             };
 
             const order = await httpPost(`rest/${store_view}/V1/carts/mine/payment-information`, payload, customer_token);
-            
-            return { order_id : order };
+
+            return { order_id: order };
         }
     }
 };

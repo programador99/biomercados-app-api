@@ -271,7 +271,7 @@ router.delete('/deleteCustomerAddress', async (req, res) => {
     }
 
     const  { addresses }  = await getUserForId(customer_id).catch(e => {
-      throw { code: e.response.status, message : e.response.data.message}
+      throw { code: e.status, message : e.message}
     });
 
     if (addresses.length == 1) {
@@ -281,11 +281,11 @@ router.delete('/deleteCustomerAddress', async (req, res) => {
     const addresSelected = addresses.find(address => address.id == address_id);
     let otherAddresses = addresses.filter(address => address.id != address_id);
 
-    if (addresSelected.default_shipping) {
+    if (addresSelected?.default_shipping) {
       otherAddresses[0].default_shipping = true;
     }
 
-    if (addresSelected.default_billing) {
+    if (addresSelected?.default_billing) {
       otherAddresses[0].default_billing = true;
     }
 
@@ -299,6 +299,7 @@ router.delete('/deleteCustomerAddress', async (req, res) => {
 
     res.status(200).json(customer);
   } catch (error) {
+    console.error(error)
     if (error.code && error.message) {
       registerLogError(error.message)
       res.status(error.code).json(error.message);
