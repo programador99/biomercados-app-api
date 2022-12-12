@@ -2,6 +2,8 @@ import mongoose from "mongoose";
 
 const storeSchema = new mongoose.Schema({
   store_id: Number,
+  name: String,
+  address: String,
   storeViews: Array
 });
-module.exports = mongoose.model('Store', storeSchema);
+export default mongoose.model('Store', storeSchema);
