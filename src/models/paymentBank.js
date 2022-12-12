@@ -10,6 +10,10 @@ const paymentBank = new mongoose.Schema({
       required: true
     },
     banks: [{
+      rif: {
+        type: String,
+        required: true
+      },
       name: {
         type: String,
         required: true
