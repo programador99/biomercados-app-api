@@ -1,5 +1,5 @@
 import { httpGet, httpPost } from "./axios"
-import { getCustomerById } from "./users"
+import { getCustomerById, getOrder } from "./users"
 
 
 export const getShippingMethod = async (cartId) => {
@@ -111,6 +111,11 @@ export const getShippingInformation = async (params) => {
     }
 };
 
+const getOrderById = async (orderId) => {
+    const url = `/rest/V1/orders/${orderId}`;
+    return await httpGet(url);
+};
+
 export const customerCreateOrder = async (params) => {
     const { store_view, customer_id, customer_token, shipping_address_id, payment_method } = params;
     const customer = await getCustomerById(customer_id);
@@ -137,9 +142,10 @@ export const customerCreateOrder = async (params) => {
                 }
             };
 
-            const order = await httpPost(`rest/${store_view}/V1/carts/mine/payment-information`, payload, customer_token);
+            const orderInformation = await httpPost(`rest/${store_view}/V1/carts/mine/payment-information`, payload, customer_token);
+            const order = await getOrderById(orderInformation);
 
-            return { order_id: order };
+            return { order_id: order.increment_id };
         }
     }
 };
