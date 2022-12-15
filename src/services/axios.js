@@ -1,4 +1,12 @@
-import axios from 'axios';
+import axiosApp from 'axios';
+import https from 'https';
+
+// Ignore Error Certificate
+const axios = axiosApp.create({
+  httpsAgent: new https.Agent({
+    rejectUnauthorized: false
+  })
+});
 
 const baseUrl = process.env.BASE_URL_API_MAGENTO;
 const bearerToken = process.env.BASE_BEARER_TOKEN_MAGENTO || '';

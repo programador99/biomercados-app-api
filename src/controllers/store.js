@@ -117,7 +117,7 @@ router.get('/getZipcodes', async (req, res) => {
 router.get('/getTax', async (req, res) => {
   try {
     const response = await getTax().catch(e => {
-      throw { code: e.response.status, message : e.response.data.message}
+      throw { code: 400, message : e.message}
     });
     res.status(200).json(response);
   } catch (error) {
