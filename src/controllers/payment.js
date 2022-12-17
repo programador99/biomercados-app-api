@@ -132,7 +132,7 @@ router.post('/cuotization', async (req, res) => {
             if (pm.code !== 'net247') {
                 return {
                     ...pm,
-                    title: pm.code === 'paypal_express' ? 'PayPal y Tarjetas internacionales' : pb.title,
+                    title: pm.code === 'paypal_express' ? 'PayPal y Tarjetas internacionales' : pm.title,
                     banks: pb?.banks ?? [],
                     currency: pb?.currency ?? 2
                 }
