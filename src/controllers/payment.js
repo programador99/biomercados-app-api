@@ -129,12 +129,16 @@ router.post('/cuotization', async (req, res) => {
         cuotization.payment_methods = cuotization.payment_methods.map(pm => {
             const pb = paymentBanks.find(current => current.code === pm.code);
 
-            return {
-                ...pm,
-                banks: pb?.banks ?? [],
-                currency: pb?.currency ?? 2
+            if (pm.code !== 'net247') {
+                return {
+                    ...pm,
+                    banks: pb?.banks ?? [],
+                    currency: pb?.currency ?? 2
+                }
+            } else {
+                return null
             }
-        })
+        }).filter(pm => pm);
 
         res.json(cuotization);
     } catch (error) {
