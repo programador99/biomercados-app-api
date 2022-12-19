@@ -13,8 +13,8 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
     const query = constructQuery(params, storeId, isAdult);
     const sort = constructSort(params);
     const paginate = constructPaginate(params);
-    const count = await Product.find(query, { _id: 0, __v: 0 }).count();
-    const products = await Product.find(query, { _id: 0, __v: 0 }, paginate).sort(sort);
+    const count = await Product.find({...query, stores: { $elemMatch: { stock: { $gt: 0 } } } }, { _id: 0, __v: 0 }).count();
+    const products = await Product.find({...query, stores: { $elemMatch: { stock: { $gt: 0 } } } }, { _id: 0, __v: 0 }, paginate).sort(sort);
     return formatProducts(products, storeId, count);
 }
 
