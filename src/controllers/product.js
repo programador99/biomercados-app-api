@@ -92,7 +92,7 @@ router.get("/products-more-seller", async (req, res) => {
 
     const age = await getUserAge(req).catch(e => {
     });
-    let isAdult = (age && age >= 18);
+    let isAdult = (age && age >= 18) ?? false;
     // if (age) {
     //  isAdult = age >= 18;
     // }

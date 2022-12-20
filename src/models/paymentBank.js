@@ -38,6 +38,10 @@ const paymentBank = new mongoose.Schema({
   currency: {
     type: Number,
     required: false
+  },
+  description: {
+    type: String,
+    required: false
   }
 });
 

@@ -134,7 +134,8 @@ router.post('/cuotization', async (req, res) => {
                     ...pm,
                     title: pm.code === 'paypal_express' ? 'PayPal y Tarjetas Internacionales' : pm.title,
                     banks: pb?.banks ?? [],
-                    currency: pb?.currency ?? 2
+                    currency: pb?.currency ?? 2,
+                    description: pb?.description
                 }
             } else {
                 return null

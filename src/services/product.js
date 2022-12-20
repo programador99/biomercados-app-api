@@ -1,3 +1,4 @@
+import Category from '../models/category';
 import Product from '../models/product';
 import ProductMoreSeller from '../models/productsMoreSeller.js'
 import { httpGet } from './axios';
@@ -13,8 +14,8 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
     const query = constructQuery(params, storeId, isAdult);
     const sort = constructSort(params);
     const paginate = constructPaginate(params);
-    const count = await Product.find({...query, stores: { $elemMatch: { stock: { $gt: 0 } } } }, { _id: 0, __v: 0 }).count();
-    const products = await Product.find({...query, stores: { $elemMatch: { stock: { $gt: 0 } } } }, { _id: 0, __v: 0 }, paginate).sort(sort);
+    const count = await Product.find({ ...query, stores: { $elemMatch: { stock: { $gt: 0 } } } }, { _id: 0, __v: 0 }).count();
+    const products = await Product.find({ ...query, stores: { $elemMatch: { stock: { $gt: 0 } } } }, { _id: 0, __v: 0 }, paginate).sort(sort);
     return formatProducts(products, storeId, count);
 }
 
@@ -220,22 +221,16 @@ export const getProductsMoreSeller = async (storeId, isAdult, page, size) => {
 
 export const extractProductRestricted = async (categories) => {
     let categoriesFormat = [];
+
+    // Excluir categoria restringida
     for (const category of categories) {
-        let newProducts = category.products.map(product => {
-            if(!product.isAgeRestricted) {
-                return product;
-            } else {
-                return null;
-            }
-        }).filter(product => product);
-        // category.products.forEach(product => {
-        //     if (!product.isAgeRestricted) {
-        //         newProducts.push(product)
-        //     }
-        // })
-        category.products = newProducts;
-        categoriesFormat.push(category);
+        let dbCategory = await Category.find({ id: category.id }, { _id: 0, __v: 0 });
+
+        if (!dbCategory[0]?.isAgeRestricted) {
+            categoriesFormat.push(category);
+        }
     }
+
     return categoriesFormat;
 }
 
