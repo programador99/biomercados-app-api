@@ -140,7 +140,8 @@ export const getCustomerCart = async (cartId, store_view) => {
       itemsCart.push({
         ...item,
         stock: product.stores.filter(store => store.id == storeCode)[0]?.stock ?? 0,
-        image: product.image
+        image: product.image,
+        tax: product.tax
       });
     } catch (error) {
       // Si el producti no existe en la base de datos mongo

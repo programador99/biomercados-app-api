@@ -14,8 +14,9 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
     const query = constructQuery(params, storeId, isAdult);
     const sort = constructSort(params);
     const paginate = constructPaginate(params);
-    const count = await Product.find({ ...query, stores: { $elemMatch: { stock: { $gt: 0 } } } }, { _id: 0, __v: 0 }).count();
-    const products = await Product.find({ ...query, stores: { $elemMatch: { stock: { $gt: 0 } } } }, { _id: 0, __v: 0 }, paginate).sort(sort);
+    const count = await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }).count();
+    const products = (await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }, paginate).sort(sort));
+
     return formatProducts(products, storeId, count);
 }
 
@@ -259,7 +260,8 @@ const formatProductsMoreSeller = (categories, storeId) => {
                 image: product.image,
                 price,
                 stock,
-                bioinsuperable
+                bioinsuperable,
+                tax: product.tax
             };
             return formatProduct;
         });
@@ -316,16 +318,18 @@ const formatProducts = (products, storeId, count) => {
                     bioinsuperable = productInStore.bioinsuperable
                 }
             }
+
             return {
                 id: product.id,
                 sku: product.sku,
                 name: product.name,
-                price: product.price,
+                // price: product.price,
                 image: product.image,
                 price,
                 stock,
                 bioinsuperable,
-                brand: product.brand
+                brand: product.brand,
+                tax: product.tax
             };
         }),
         count
@@ -355,7 +359,8 @@ export const formatProduct = (products, storeId) => {
             price,
             stock,
             bioinsuperable,
-            brand: product.brand
+            brand: product.brand,
+            tax: product.tax
         };
     })
 }
