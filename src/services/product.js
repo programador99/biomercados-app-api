@@ -92,7 +92,8 @@ const constructQuery = (params, storeId, isAdult) => {
     if (search && search !== '') {
         querySearch = search.includes(' ') || parseInt(search) ?
             { $text: { $search: search, $caseSensitive: false, $diacriticSensitive: false } } :
-            { name: { $regex: search, $options: "i" } };
+            // { name: { $regex: search, $options: "i" } };
+            { $or: [{ name: { $regex: search, $options: 'i' } }, { description: { $regex: search, $options: 'i' } }] };
     }
 
     /** query filter price 0 and stock 0 */

@@ -15,7 +15,8 @@ const productSchema = new mongoose.Schema({
   origin: Object,
   packing: Object,
   tax: Number,
-  isAgeRestricted: Boolean
+  isAgeRestricted: Boolean,
+  description: Object,
 });
 
 // Agregando indices de busqueda
