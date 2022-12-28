@@ -9,7 +9,7 @@ export const getShippingMethod = async (cartId) => {
 
 export const getShippingMethodByAddressId = async (params) => {
     const { customer_token, addressId, cartId, storeView } = params;
-    const url = `rest/V1/carts/mine/estimate-shipping-methods-by-address-id`;
+    const url = `rest/V1/view_parapal_esp/carts/mine/estimate-shipping-methods-by-address-id`;
     console.info(customer_token, addressId)
     return await httpPost(url, { addressId, cart_id: cartId });
 }
