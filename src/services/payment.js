@@ -8,10 +8,10 @@ export const getShippingMethod = async (cartId) => {
 }
 
 export const getShippingMethodByAddressId = async (params) => {
-    const { customer_token, addressId } = params;
+    const { customer_token, addressId, cartId } = params;
     const url = 'rest/V1/carts/mine/estimate-shipping-methods-by-address-id';
     console.info(customer_token, addressId)
-    return await httpPost(url, { addressId }, customer_token);
+    return await httpPost(url, { addressId, cart_id: cartId });
 }
 
 export const getPaymentMethod = async (cartId) => {
