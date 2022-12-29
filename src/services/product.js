@@ -17,7 +17,7 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
     const count = await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }).count();
     const products = (await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }, paginate).sort(sort));
 
-    return formatProducts(products, storeId, count);
+    return formatProducts(products, storeId, count, params.search);
 }
 
 export const getBioinsuperables = async (storeId, isAdult) => {
@@ -305,7 +305,9 @@ export const getRelatedProducts = async (sku) => {
     return null;
 }
 
-const formatProducts = (products, storeId, count) => {
+const formatProducts = (products, storeId, count, search) => {
+    const regexp = new RegExp(search, 'i');
+
     return {
         products: products.map(product => {
             let price = 0;
@@ -330,8 +332,15 @@ const formatProducts = (products, storeId, count) => {
                 stock,
                 bioinsuperable,
                 brand: product.brand,
-                tax: product.tax
+                tax: product.tax,
+                description: product.description
             };
+        }).sort((a, b) => {
+            let x = a.description.match(regexp);
+            let y = b.description.match(regexp);
+            x = x ? x[0].toLowerCase() : x;
+            y = y ? y[0].toLowerCase() : y;
+            return x ? -1 : y ? 1 : 0
         }),
         count
     }
