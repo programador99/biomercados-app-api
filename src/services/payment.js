@@ -9,7 +9,7 @@ export const getShippingMethod = async (cartId) => {
 
 export const getShippingMethodByAddressId = async (params) => {
     const { customer_token, addressId, cartId, storeView } = params;
-    const url = `rest/${storeView ?? 'all'}/V1/carts/mine/estimate-shipping-methods-by-address-id`;
+    const url = `rest/${storeView ?? ''}/V1/carts/mine/estimate-shipping-methods-by-address-id`;
     const payload = { addressId };
     cartId && Object.assign(payload, { cart_id: cartId });
     const result = cartId ? await httpPost(url, payload) : await httpPost(url, payload, customer_token);

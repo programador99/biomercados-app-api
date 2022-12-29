@@ -1964,3 +1964,14 @@
 [2022-12-10T12:04:57.249] [ERROR] everything - error inesperado {}
 [2022-12-10T12:05:15.863] [ERROR] everything - error inesperado {}
 [2022-12-10T12:10:13.592] [ERROR] everything - error inesperado {}
+[2022-12-29T14:34:26.147] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-12-29T14:34:27.604] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-12-29T14:34:51.243] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-12-29T14:34:53.403] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-12-29T14:35:05.531] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-12-29T14:35:06.730] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-12-29T14:35:49.012] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-12-29T14:36:21.469] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-12-29T14:36:22.641] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-12-29T14:36:39.609] [ERROR] everything - The consumer isn't authorized to access %resources.
+[2022-12-29T14:36:45.170] [ERROR] everything - Specified request cannot be processed.
