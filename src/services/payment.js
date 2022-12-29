@@ -1,5 +1,5 @@
 import { httpGet, httpPost } from "./axios"
-import { getCustomerById, getOrder } from "./users"
+import { getCustomerById } from "./users"
 
 
 export const getShippingMethod = async (cartId) => {
@@ -9,9 +9,11 @@ export const getShippingMethod = async (cartId) => {
 
 export const getShippingMethodByAddressId = async (params) => {
     const { customer_token, addressId, cartId, storeView } = params;
-    const url = `rest/${storeView}/V1/carts/mine/estimate-shipping-methods-by-address-id`;
-    console.info(customer_token, addressId)
-    return await httpPost(url, { addressId, cart_id: cartId });
+    const url = `rest/${storeView ?? 'all'}/V1/carts/mine/estimate-shipping-methods-by-address-id`;
+    const payload = { addressId };
+    cartId && Object.assign(payload, { cart_id: cartId });
+    const result = cartId ? await httpPost(url, payload) : await httpPost(url, payload, customer_token);
+    return result;
 }
 
 export const getPaymentMethod = async (cartId) => {
