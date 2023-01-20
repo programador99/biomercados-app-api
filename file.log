@@ -1975,3 +1975,24 @@
 [2022-12-29T14:36:22.641] [ERROR] everything - The consumer isn't authorized to access %resources.
 [2022-12-29T14:36:39.609] [ERROR] everything - The consumer isn't authorized to access %resources.
 [2022-12-29T14:36:45.170] [ERROR] everything - Specified request cannot be processed.
+[2023-01-20T16:28:21.609] [ERROR] everything - error inesperado {}
+[2023-01-20T16:29:32.044] [ERROR] everything - error inesperado {}
+[2023-01-20T16:29:35.799] [ERROR] everything - error inesperado {}
+[2023-01-20T16:29:43.058] [ERROR] everything - error inesperado {}
+[2023-01-20T16:29:50.279] [ERROR] everything - error inesperado {}
+[2023-01-20T16:30:11.940] [ERROR] everything - error inesperado {}
+[2023-01-20T16:30:19.522] [ERROR] everything - error inesperado {}
+[2023-01-20T16:30:27.625] [ERROR] everything - error inesperado {}
+[2023-01-20T16:30:55.992] [ERROR] everything - error inesperado {}
+[2023-01-20T16:30:57.363] [ERROR] everything - error inesperado {}
+[2023-01-20T16:31:03.440] [ERROR] everything - error inesperado {}
+[2023-01-20T16:31:12.943] [ERROR] everything - error inesperado {}
+[2023-01-20T16:31:19.928] [ERROR] everything - error inesperado {}
+[2023-01-20T16:31:26.665] [ERROR] everything - error inesperado {}
+[2023-01-20T16:31:49.671] [ERROR] everything - error inesperado {}
+[2023-01-20T16:32:30.711] [ERROR] everything - error inesperado {}
+[2023-01-20T16:32:33.046] [ERROR] everything - error inesperado {}
+[2023-01-20T16:33:05.989] [ERROR] everything - error inesperado {}
+[2023-01-20T16:33:08.670] [ERROR] everything - error inesperado {}
+[2023-01-20T16:33:21.196] [ERROR] everything - error inesperado {}
+[2023-01-20T16:33:41.091] [ERROR] everything - Cannot set headers after they are sent to the client

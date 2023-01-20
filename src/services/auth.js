@@ -33,14 +33,14 @@ export const changePassword = async (email, password, resetToken) => {
   return response;
 };
 
-export const loginSocial = async (email) => {
+export const loginSocial = async (email, biometric = false) => {
   const url = 'rest/V1/custom/login';
   let response = JSON.parse((await httpPost(url, { emailId: email })));
 
   response = { ...response, timestamp: (new Date).getTime() };
   const timestamp = response?.timestamp;
   const tokenUser = response?.token;
-  await saveRereshToken(tokenUser, email, timestamp);
+  await saveRereshToken(tokenUser, email, timestamp, biometric);
 
   return JSON.stringify(response);
 };
@@ -67,9 +67,9 @@ export const validateCurrentToken = async (token) => {
   };
 }
 
-export const saveRereshToken = async (token, email, timestamp) => {
+export const saveRereshToken = async (token, email, timestamp, biometric = false) => {
   await RefreshToken.deleteMany({ email });
-  await RefreshToken.insertMany([{ email, token, timestamp }]);
+  await RefreshToken.insertMany([{ email, token, timestamp, biometric }]);
 }
 
 // Firebase Auth
