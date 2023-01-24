@@ -129,7 +129,8 @@ router.post('/cuotization', async (req, res) => {
         cuotization.payment_methods = cuotization.payment_methods.map(pm => {
             const pb = paymentBanks.find(current => current.code === pm.code);
 
-            if (pm.code !== 'net247') {
+            // Desactivando net247
+            // if (pm.code !== 'net247') {
                 return {
                     ...pm,
                     title: pm.code === 'paypal_express' ? 'PayPal y Tarjetas Internacionales' : pm.title,
@@ -137,9 +138,9 @@ router.post('/cuotization', async (req, res) => {
                     currency: pb?.currency ?? 2,
                     description: pb?.description
                 }
-            } else {
-                return null
-            }
+            // } else {
+            //     return null
+            // }
         }).filter(pm => pm);
 
         res.json(cuotization);
