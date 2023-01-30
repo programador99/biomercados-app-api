@@ -3,6 +3,7 @@ import jwt from 'jsonwebtoken';
 import jwksClient from 'jwks-rsa';
 import axios from 'axios';
 import RefreshToken from '../models/refreshToken';
+import refreshToken from "../models/refreshToken";
 
 export const authUser = async (username, password) => {
   const url = 'rest/V1/integration/customer/token';
@@ -104,3 +105,86 @@ export const authApple = async (token) => {
 
   return { sub, email };
 }
+
+export const getMatchedUser = async (props) => {
+  const { userId, deviceId } = props;
+
+  if (!userId || !deviceId) {
+    throw new Error('Parametros no validos!');
+  }
+
+  const userMatched = await refreshToken.findOne({
+    email: userId,
+    deviceId
+  });
+
+  if (!userMatched) {
+    return {
+      status: 'Unauthorize'
+    }
+  }
+
+  return {
+    status: 'authorize'
+  };
+}
+
+export const matchedUser = async (props) => {
+  const { userId, deviceId } = props;
+
+  if (!userId || !deviceId) {
+    throw new Error('Parametros no validos!');
+  }
+
+  const user = await refreshToken.findOne({
+    email: userId,
+    // deviceId
+  });
+
+  const userDeviceId = await refreshToken.findOne({
+    deviceId
+  });
+
+  if (user) {
+    if (!userDeviceId) {
+      // if (user.deviceId && user.deviceId !== deviceId) {
+      //   user.deviceId = deviceId;
+      //   await user.update();
+
+      //   return {
+      //     status: 'success',
+      //     messahe: `Vinculacion exitosa!`
+      //   };
+      // }
+      await user.update({
+        $set: { deviceId }
+      });
+
+      return {
+        status: 'success',
+        messahe: `Vinculacion exitosa!`
+      };
+    } else if (userDeviceId) {
+      // comparamos si es el mismo dispositivo
+      if (user.deviceId === userDeviceId.deviceId) {
+        return {
+          status: 'authorize'
+        };
+      } else if (user.email !== userDeviceId.email) {
+        await userDeviceId.update({
+          $set: { deviceId: null }
+        });
+
+        await user.update({
+          $set: { deviceId }
+        });
+
+        return {
+          status: 'success',
+          messahe: `Vinculacion exitosa!`
+        };
+
+      }
+    }
+  }
+};
