@@ -4,7 +4,7 @@ const { NET247_X_API_KEY, NET247_MERCHANT_ID } = process.env;
 
 const httpGet = async (url) => {
     const response = await axios.get(url, {
-        baseURL: "https://24-7net.net/api/v1",
+        baseURL: "https://go247.online/api/v1",
         headers: {
             "x-api-key": NET247_X_API_KEY
         }
@@ -14,7 +14,7 @@ const httpGet = async (url) => {
 
 const httpPost = async (url, payload) => {
     const response = await axios.post(url, payload, {
-        baseURL: "https://24-7net.net/api/v1",
+        baseURL: "https://go247.online/api/v1",
         headers: {
             "x-api-key": NET247_X_API_KEY
         }
