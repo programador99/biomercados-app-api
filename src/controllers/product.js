@@ -159,10 +159,10 @@ router.get('/get-products/:storeId/:userId/', async (req, res) => {
 
     const age = await getUserAge(req).catch(e => {
     });
-    let isAdult = false;
-    if (age) {
-      isAdult = age >= 18;
-    }
+    let isAdult = true;
+    // if (age) {
+    //   isAdult = age >= 18;
+    // }
 
     if (userId !== 'null' && userId && isNaN(parseInt(userId))) {
       throw { code: 400, message: "El id del usuario debe ser numerico" }
