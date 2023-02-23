@@ -30,13 +30,13 @@ export const getBioinsuperables = async (storeId, isAdult) => {
     if (isAdult) {
         query = {
             $match: {
-                stores: { $elemMatch: { id: storeId, bioinsuperable: true } }
+                stores: { $elemMatch: { id: storeId, bioinsuperable: true, stock: { $gt: 0 }, price: { $gt: 0 } } }
             }
         }
     } else {
         query = {
             $match: {
-                stores: { $elemMatch: { id: storeId, bioinsuperable: true } },
+                stores: { $elemMatch: { id: storeId, bioinsuperable: true, stock: { $gt: 0 }, price: { $gt: 0 } } },
                 isAgeRestricted: false
             }
         }
@@ -116,8 +116,6 @@ function search(params, array) {
             else if (result.some(item => item.sku !== product.sku))
                 result.push(product);
         });
-
-        console.info(result)
 
         //return paginateArray(size, result)[page ?? 0];
         // return result
