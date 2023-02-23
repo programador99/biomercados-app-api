@@ -15,9 +15,14 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
     const sort = constructSort(params);
     const paginate = constructPaginate(params);
     const count = await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }).count();
-    const products = (await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }, paginate).sort(sort));
+    const products = (await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }));
 
-    return formatProducts(products, storeId, count, params.search);
+    console.info("productos", products.length)
+    const filterProducts = search(params, products);
+    // return filterProducts
+
+    const total = formatProducts(filterProducts, storeId, filterProducts.length, params.search);
+    return { products: paginateArray(10, total.products)[params?.page ?? 0], count: filterProducts.length  };
 }
 
 export const getBioinsuperables = async (storeId, isAdult) => {
@@ -42,6 +47,86 @@ export const getBioinsuperables = async (storeId, isAdult) => {
         { $sample: { size: 10 } }
     ]);
     return formatProduct(products, storeId);
+}
+
+function search(params, array) {
+    let result = [];
+
+    try {
+        const { search, size, page } = params;
+
+        let filter_part = search.split(' ');
+        let products = array.map(item => {
+            let flag = 0;
+
+            filter_part.forEach(flt => {
+                flt = flt?.toUpperCase();
+                if (item.name.includes(flt)) {
+                    flag += 4;
+
+                    if (item.name.indexOf(flt) === 0) {
+                        flag += 4;
+                    }
+                } else {
+                    flag = flag ? flag : 0;
+                }
+
+                const description = item.description?.toUpperCase();
+                if (description?.includes(flt)) {
+                    flag += 2;
+                }
+
+                const brand = item?.brand?.label?.toUpperCase();
+                if (brand && brand.includes(flt)) {
+                    flag++;
+                }
+
+                const exp = new RegExp(`^${flt}$`);
+                const name_split = item.name.split(' ');
+                name_split.forEach(name => {
+                    const match = name.match(exp);
+
+                    if(match && name === match[0])
+                        flag += 2;
+                });
+            });
+
+            if (item.name.indexOf(search?.toUpperCase()) > -1) {
+                flag += 2;
+            }
+
+            if (item.name.indexOf(search?.toUpperCase()) === 0) {
+                flag += 3;
+            }
+
+            if (flag) {
+                return { ...item?._doc, flag };
+            }
+        }).sort((a, b) => {
+            if (a.flag >= b.flag) {
+                return -1
+            } else {
+                return 0
+            }
+        }).filter(i => i || (i && i.flag));
+
+        products.forEach(product => {
+            if (result.length <= 0)
+                result.push(product);
+            else if (result.some(item => item.sku !== product.sku))
+                result.push(product);
+        });
+
+        console.info(result)
+
+        //return paginateArray(size, result)[page ?? 0];
+        // return result
+    } catch (error) {
+        console.error(error)
+    } finally {
+        console.info(result.length)
+        return result;
+    }
 }
 
 const constructQuery = (params, storeId, isAdult) => {
@@ -90,11 +175,13 @@ const constructQuery = (params, storeId, isAdult) => {
     /** filter for search */
     let querySearch = {}
     if (search && search !== '') {
-        querySearch = search.includes(' ') || parseInt(search) ?
-            { $text: { $search: search, $caseSensitive: false, $diacriticSensitive: false } } :
+        querySearch = {}; /*search.includes(' ') || parseInt(search) ?
+            //{ $text: { $search: search, $caseSensitive: false, $diacriticSensitive: false } } :
+            {} :
             // { name: { $regex: search, $options: "i" } };
-            { $or: [{ name: { $regex: search, $options: 'i' } }, { description: { $regex: search, $options: 'i' } }] };
+            { $or: [{ name: { $regex: search, $options: 'i' } }, { description: { $regex: search, $options: 'i' } }] };*/
     }
+    console.info("elS", querySearch)
 
     /** query filter price 0 and stock 0 */
 
@@ -154,10 +241,11 @@ const constructSort = (params) => {
 }
 
 const constructPaginate = (params) => {
-    const { page, size } = params;
+    const { page, size, search } = params;
+    const filter_part = search.split(' ');
     let paginate = {
         skip: 0,
-        limit: 10
+        limit: filter_part.length > 1 ? 0 : 10
     };
     if (page !== undefined && size !== undefined) {
         paginate = {
@@ -335,13 +423,13 @@ const formatProducts = (products, storeId, count, search) => {
                 tax: product.tax,
                 description: product.description
             };
-        }).sort((a, b) => {
-            let x = a.description.match(regexp);
-            let y = b.description.match(regexp);
+        })/*.sort((a, b) => {
+            let x = a.description.match(regexp) || a.name.match(regexp);
+            let y = b.description.match(regexp) || b.name.match(regexp);
             x = x ? x[0].toLowerCase() : x;
             y = y ? y[0].toLowerCase() : y;
             return x ? -1 : y ? 1 : 0
-        }),
+        })*/,
         count
     }
 }
@@ -374,3 +462,11 @@ export const formatProduct = (products, storeId) => {
         };
     })
 }
+
+const paginateArray = (size, xs) =>
+    xs.reduce((segments, _, index) =>
+        index % size === 0
+            ? [...segments, xs.slice(index, index + size)]
+            : segments,
+        []
+    );
