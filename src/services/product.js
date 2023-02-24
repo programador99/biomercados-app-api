@@ -123,9 +123,10 @@ function search(params, array) {
     let result = [];
 
     try {
-        const { search, storeId, size, page } = params;
+        let { search, storeId, size, page } = params;
         const off_product_words = ['bio insuperable', 'bio insuperables', 'bioinsuperable', 'bioinsuperables', 'oferta', 'ofertas'];
 
+        search = search?.trim();
         let filter_part = search.split(' ');
         let products = array.map(item => {
             let flag = 0;
