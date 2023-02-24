@@ -19,7 +19,7 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
     const products = (await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }));
 
     // console.info("productos", products.length)
-    const filterProducts = params.search ? search({...params, storeId}, products) : products;
+    const filterProducts = params.search ? search({ ...params, storeId }, products) : positionFirstProductCategory(products);
     // return filterProducts
 
     const total = formatProducts(filterProducts, storeId, filterProducts.length, params.search);
@@ -88,21 +88,52 @@ function randomIntFromInterval(min, max) { // min and max included
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
+// Algoritmo de posicionamiento de productos en catalogo
+// prioridad a los productos de la propia categoria con foto
+function positionFirstProductCategory(array) {
+    const products = array.map(product => {
+        const productCategories = product.categories.filter(category => category.isParent === true);
+
+        if (productCategories.length > 1) {
+            return {
+                ...product._doc,
+                flag: product.image.includes('bio_placeholder') ? -1 : 0
+            };
+        } else {
+            return {
+                ...product._doc,
+                flag: product.image.includes('bio_placeholder') ? 1 : 2
+            };
+        }
+    }).sort((a, b) => {
+        if (a.flag >= b.flag) {
+            return -1
+        } else {
+            return 0
+        }
+    });
+
+    console.info(products)
+
+    return products;
+}
+
+// Algoritmo de busqueda
 function search(params, array) {
     let result = [];
 
     try {
         const { search, storeId, size, page } = params;
-        const off_product_words = ['bio insuperable','bio insuperables','bioinsuperable','bioinsuperables','oferta','ofertas'];
+        const off_product_words = ['bio insuperable', 'bio insuperables', 'bioinsuperable', 'bioinsuperables', 'oferta', 'ofertas'];
 
         let filter_part = search.split(' ');
         let products = array.map(item => {
             let flag = 0;
 
             // Busca palabras clave para ofertas o bio insuperables
-            off_product_words.forEach( word => {
-                if(search?.toLowerCase()?.includes(word)) {
-                    if(item.stores.some(st => st.id === storeId && st.bioinsuperable === true)) {
+            off_product_words.forEach(word => {
+                if (search?.toLowerCase()?.includes(word)) {
+                    if (item.stores.some(st => st.id === storeId && st.bioinsuperable === true)) {
                         flag += 100;
                     }
                 }
