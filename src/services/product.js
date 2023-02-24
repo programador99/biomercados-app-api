@@ -113,8 +113,6 @@ function positionFirstProductCategory(array) {
         }
     });
 
-    console.info(products)
-
     return products;
 }
 
