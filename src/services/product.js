@@ -19,7 +19,7 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
     const products = (await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }));
 
     // console.info("productos", products.length)
-    const filterProducts = params.search ? search(params, products) : products;
+    const filterProducts = params.search ? search({...params, storeId}, products) : products;
     // return filterProducts
 
     const total = formatProducts(filterProducts, storeId, filterProducts.length, params.search);
@@ -92,11 +92,26 @@ function search(params, array) {
     let result = [];
 
     try {
-        const { search, size, page } = params;
+        const { search, storeId, size, page } = params;
+        const off_product_words = ['bio insuperable','bio insuperables','bioinsuperable','bioinsuperables','oferta','ofertas'];
 
         let filter_part = search.split(' ');
         let products = array.map(item => {
             let flag = 0;
+
+            // Busca palabras clave para ofertas o bio insuperables
+            off_product_words.forEach( word => {
+                if(search.includes(word)) {
+                    if(item.stores.some(st => st.id === storeId && st.bioinsuperable === true)) {
+                        flag += 100;
+                    }
+                }
+            });
+
+            if (flag || flag >= 100) {
+                return { ...item?._doc, flag };
+            }
+            // Fin palabras claves ofertas o bio insuperables
 
             filter_part.forEach(flt => {
                 flt = flt?.toUpperCase();
@@ -117,7 +132,7 @@ function search(params, array) {
 
                 const brand = item?.brand?.label?.toUpperCase();
                 if (brand && brand.includes(flt)) {
-                    flag++;
+                    flag += 4;
                 }
 
                 const exp = new RegExp(`^${flt}$`);
@@ -128,26 +143,54 @@ function search(params, array) {
                     if (match && name === match[0])
                         flag += 2;
                 });
+
+                // Desfragmentando palabra por (-)
+                const fragment_letter = flt.split('-');
+                if (item.name.indexOf(fragment_letter.join(' ')) > -1) {
+                    flag += 2;
+                }
+                fragment_letter.forEach(letter => {
+                    if (item.name.includes(letter)) {
+                        flag += 2;
+                    }
+                });
+                // Fin desfragmento palabra
+
             });
 
+            // Valida si posee la palabra buscada en cualquier seccion del nombre del producto
             if (item.name.indexOf(search?.toUpperCase()) > -1) {
                 flag += 2;
             }
 
+            // Valida si posee la palabra buscada al inicio del nombre del producto
             if (item.name.indexOf(search?.toUpperCase()) === 0) {
                 flag += 3;
             }
 
-            if (flag) {
+            // Valida si la primeras dos palabras del nombre del producto coinciden con la oracion buscada en cualquier seccion del nombre
+            const extractPortionName = item.name?.toUpperCase().split(' ').slice(0, 2).join(' ');
+            if (extractPortionName.indexOf(search?.toUpperCase()) > -1) {
+                flag += 2;
+            }
+
+            // Valida si la primeras dos palabras del nombre del producto coinciden con la oracion buscada al inicio del nombre
+            if (extractPortionName.indexOf(search?.toUpperCase()) === 0) {
+                flag += 3;
+            }
+
+            // Excluye los productos que no tuvieron exito en la busqueda
+            if (flag || flag > 0) {
                 return { ...item?._doc, flag };
             }
-        }).sort((a, b) => {
-            if (a.flag >= b.flag) {
-                return -1
-            } else {
-                return 0
-            }
-        }).filter(i => i || (i && i.flag));
+        }).filter(i => i || (i && (i.flag || i.flag > 0)))
+            .sort((a, b) => {
+                if (a.flag >= b.flag) {
+                    return -1
+                } else {
+                    return 0
+                }
+            });
 
         products.forEach(product => {
             if (result.length <= 0)
@@ -156,12 +199,13 @@ function search(params, array) {
                 result.push(product);
         });
 
+        // console.info(result)
+
         //return paginateArray(size, result)[page ?? 0];
         // return result
     } catch (error) {
         console.error(error)
     } finally {
-        console.info(result.length)
         return result;
     }
 }
@@ -218,7 +262,6 @@ const constructQuery = (params, storeId, isAdult) => {
             // { name: { $regex: search, $options: "i" } };
             { $or: [{ name: { $regex: search, $options: 'i' } }, { description: { $regex: search, $options: 'i' } }] };*/
     }
-    console.info("elS", querySearch)
 
     /** query filter price 0 and stock 0 */
 
