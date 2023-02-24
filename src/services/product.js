@@ -11,42 +11,81 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
         await saveHistorySearch(userId, params.search);
     }
 
+
     const query = constructQuery(params, storeId, isAdult);
     const sort = constructSort(params);
-    const paginate = constructPaginate(params);
-    const count = await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }).count();
+    // const paginate = constructPaginate(params);
+    // const count = await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }).count();
     const products = (await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }));
 
-    console.info("productos", products.length)
-    const filterProducts = search(params, products);
+    // console.info("productos", products.length)
+    const filterProducts = params.search ? search(params, products) : products;
     // return filterProducts
 
     const total = formatProducts(filterProducts, storeId, filterProducts.length, params.search);
-    return { products: paginateArray(10, total.products)[params?.page ?? 0], count: filterProducts.length  };
+    return { products: paginateArray(10, total.products)[params?.page ?? 0], count: filterProducts.length };
 }
 
-export const getBioinsuperables = async (storeId, isAdult) => {
+export const getBioinsuperables = async (storeId, productId, isAdult) => {
     let query = {}
+    let subquery = {};
+
+    const product = parseInt(productId) && await Product.findOne({
+        id: parseInt(productId)
+    });
+
+    let categoryId = 0;
+    if (product) {
+        const { categories } = product;
+        categoryId = categories.find(cat => cat.isParent === true)?.id;
+
+    }
+
+    if (categoryId) {
+        subquery = {
+            categories: { $elemMatch: { id: categoryId } }
+        };
+    }
+
     if (isAdult) {
         query = {
             $match: {
-                stores: { $elemMatch: { id: storeId, bioinsuperable: true, stock: { $gt: 0 }, price: { $gt: 0 } } }
+                stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } },
+                ...subquery
             }
         }
     } else {
         query = {
             $match: {
-                stores: { $elemMatch: { id: storeId, bioinsuperable: true, stock: { $gt: 0 }, price: { $gt: 0 } } },
-                isAgeRestricted: false
+                stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } },
+                isAgeRestricted: false,
+                ...subquery
             }
         }
     }
 
-    const products = await Product.aggregate([
+    let products = await Product.aggregate([
         query,
-        { $sample: { size: 10 } }
+        // { $sample: { size: 10 } }
     ]);
-    return formatProduct(products, storeId);
+    // let products = await Product.find({ ...query })
+
+    products = products.sort((a, b) => {
+        const aS = a?.stores.some(st => st.bioinsuperable === true) ? 1 : 0;
+        const bS = b?.stores.some(st => st.bioinsuperable === false) ? 0 : 1;
+        let value = randomIntFromInterval(-1, 1);
+
+        if (aS >= bS) {
+            return value;
+        } else {
+            return 0;
+        }
+    })
+    return formatProduct(products, storeId).slice(0, 10);
+}
+
+function randomIntFromInterval(min, max) { // min and max included 
+    return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
 function search(params, array) {
@@ -86,7 +125,7 @@ function search(params, array) {
                 name_split.forEach(name => {
                     const match = name.match(exp);
 
-                    if(match && name === match[0])
+                    if (match && name === match[0])
                         flag += 2;
                 });
             });
