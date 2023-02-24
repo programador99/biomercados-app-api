@@ -101,7 +101,7 @@ function search(params, array) {
 
             // Busca palabras clave para ofertas o bio insuperables
             off_product_words.forEach( word => {
-                if(search.includes(word)) {
+                if(search?.toLowerCase()?.includes(word)) {
                     if(item.stores.some(st => st.id === storeId && st.bioinsuperable === true)) {
                         flag += 100;
                     }
