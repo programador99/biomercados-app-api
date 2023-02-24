@@ -51,6 +51,7 @@ export const getBioinsuperables = async (storeId, productId, isAdult) => {
         query = {
             $match: {
                 stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } },
+                id: { $ne: parseInt(productId) },
                 ...subquery
             }
         }
@@ -58,6 +59,7 @@ export const getBioinsuperables = async (storeId, productId, isAdult) => {
         query = {
             $match: {
                 stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } },
+                id: { $ne: parseInt(productId) },
                 isAgeRestricted: false,
                 ...subquery
             }
