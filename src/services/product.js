@@ -137,6 +137,10 @@ function search(params, array) {
                     if (item.stores.some(st => st.id === storeId && st.bioinsuperable === true)) {
                         flag += 100;
                     }
+
+                    if(!item.image.includes('bio_placeholder')) {
+                        flag += 10;
+                    }
                 }
             });
 
