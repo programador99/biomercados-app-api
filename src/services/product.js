@@ -19,7 +19,7 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
     const products = (await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }));
 
     // console.info("productos", products.length)
-    const filterProducts = params.search ? search({ ...params, storeId }, products) : positionFirstProductCategory(products);
+    const filterProducts = params.search ? search({ ...params, storeId }, products) : positionFirstProductCategory(products, params?.bioinsuperable);
     // return filterProducts
 
     const total = formatProducts(filterProducts, storeId, filterProducts.length, params.search);
@@ -92,7 +92,7 @@ function randomIntFromInterval(min, max) { // min and max included
 
 // Algoritmo de posicionamiento de productos en catalogo
 // prioridad a los productos de la propia categoria con foto
-function positionFirstProductCategory(array) {
+function positionFirstProductCategory(array, bioinsuperable = null) {
     const products = array.map(product => {
         const productCategories = product.categories.filter(category => category.isParent === true);
 
@@ -107,7 +107,7 @@ function positionFirstProductCategory(array) {
                 flag: product.image.includes('bio_placeholder') ? 1 : 2
             };
         }
-    }).sort((a, b) => {
+    }).filter( product => product.stores.some( store => (bioinsuperable && store.bioinsuperable === true) || !bioinsuperable)).sort((a, b) => {
         if (a.flag >= b.flag) {
             return -1
         } else {
