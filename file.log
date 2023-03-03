@@ -2236,3 +2236,4 @@
 [2023-02-26T21:47:38.276] [INFO] everything - AUYAMA 1000GRupdateItemToCartError occurred during "item_id" processing. The "null" value's type is invalid. The "int" type was expected. Verify and try again.
 [2023-02-26T21:50:27.142] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
 [2023-02-26T21:57:41.931] [ERROR] everything - El token invalido.
+[2023-02-26T22:28:28.609] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve

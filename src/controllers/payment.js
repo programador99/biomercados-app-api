@@ -145,6 +145,12 @@ router.post('/cuotization', async (req, res) => {
             // }
         }).filter(pm => pm);
 
+        // 
+        cuotization.totals = {
+            ...cuotization.totals,
+            discount_amount: Math.abs(cuotization.totals?.discount_amount)
+        };
+
         res.json(cuotization);
     } catch (error) {
         if (error.code && error.message) {
