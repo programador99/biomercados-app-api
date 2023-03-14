@@ -201,7 +201,7 @@ export const synchronizeShoppingCart = async (cart_id, customerToken, view_store
         }, view_store, item?.item_id).catch(e => {
           console.log(product.name);
           console.log('updateItemToCart', e.response.status, e.response.data.message);
-          registerLogInfo(product.name + 'updateItemToCart' + e.response.data.message);
+          registerLogInfo(product.name + ' updateItemToCart' + e.response.data.message);
           if (e.response.status == 401) {
             throw e;
           }
