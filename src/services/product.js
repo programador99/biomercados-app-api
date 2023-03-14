@@ -119,6 +119,10 @@ function positionFirstProductCategory(array, bioinsuperable = null) {
     return products;
 }
 
+function cleanText(str) {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
 // Algoritmo de busqueda
 function search(params, array, categories) {
     let result = [];
@@ -129,12 +133,14 @@ function search(params, array, categories) {
 
         // Maestro de categorias para filtrado 
         search = search?.trim();
+        let cleanSearch = cleanText(search);
         let filter_part = search.split(' ');
         let categoriesFiltres = [];
 
         if (categories && categories.length > 0) {
             categoriesFiltres = categories.map(category => {
-                if (category.name.toLowerCase().includes(search.toLowerCase())) {
+                let catName = cleanText(category.name.toLowerCase());
+                if (catName.includes(cleanSearch.toLowerCase())) {
                     return category.id;
                 }
             }).filter(item => item);
