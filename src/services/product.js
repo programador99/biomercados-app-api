@@ -447,7 +447,7 @@ export const getProductsMoreSeller = async (storeId, isAdult, page, size) => {
     if (!isAdult) {
         categories = await extractProductRestricted(categories);
     }
-    return formatProductsMoreSeller(categories, storeId);
+    return await formatProductsMoreSeller(categories, storeId);
 }
 
 export const extractProductRestricted = async (categories) => {
@@ -465,18 +465,21 @@ export const extractProductRestricted = async (categories) => {
     return categoriesFormat;
 }
 
-const formatProductsMoreSeller = (categories, storeId) => {
+const formatProductsMoreSeller = async (categories, storeId) => {
     let productsMoreSeller = [];
     let bioInsuperables = [];
     for (let category of categories) {
         category = JSON.parse(JSON.stringify(category));
-        category.products = category.products.map(product => {
+        category.products = await Promise.all(category.products.map(async product => {
+            const dbProduct = await Product.findOne({
+                sku: product
+            }, {__v: 0, _id: 0});
 
             let price = 0;
             let stock = 0;
             let bioinsuperable = false;
             if (storeId) {
-                const productInStore = product.stores.filter(st => st.id == storeId)[0];
+                const productInStore = dbProduct.stores.filter(st => st.id == storeId)[0];
                 if (productInStore) {
                     price = productInStore.price
                     stock = productInStore.stock
@@ -484,17 +487,17 @@ const formatProductsMoreSeller = (categories, storeId) => {
                 }
             }
             const formatProduct = {
-                id: product.id,
-                sku: product.sku,
-                name: product.name,
-                image: product.image,
+                id: dbProduct.id,
+                sku: dbProduct.sku,
+                name: dbProduct.name,
+                image: dbProduct.image,
                 price,
                 stock,
                 bioinsuperable,
-                tax: product.tax
+                tax: dbProduct.tax
             };
             return formatProduct;
-        });
+        }));
 
         // Metodo de ordenamiento
         if (category.products.length > 0) {

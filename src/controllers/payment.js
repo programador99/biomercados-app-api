@@ -148,7 +148,7 @@ router.post('/cuotization', async (req, res) => {
         // 
         cuotization.totals = {
             ...cuotization.totals,
-            discount_amount: Math.abs(cuotization.totals?.discount_amount)
+            discount_amount: cuotization.totals?.discount_amount
         };
 
         res.json(cuotization);
