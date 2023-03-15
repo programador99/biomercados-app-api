@@ -124,7 +124,9 @@ router.post('/cuotization', async (req, res) => {
             throw { code: e.response.status, message: e.response.data.message }
         });
 
-        const paymentBanks = await PaymentBank.find();
+        const paymentBanks = await PaymentBank.find({
+
+        });
 
         cuotization.payment_methods = cuotization.payment_methods.map(pm => {
             const pb = paymentBanks.find(current => current.code === pm.code);
@@ -134,7 +136,7 @@ router.post('/cuotization', async (req, res) => {
                 return {
                     ...pm,
                     title: pm.code === 'paypal_express' ? 'PayPal y Tarjetas Internacionales' : pm.title,
-                    banks: pb?.banks ?? [],
+                    banks: pb?.banks.map( bank => bank?.store_view === store_view ? bank : null).filter(bank => bank) ?? [],
                     currency: pb?.currency ?? 2,
                     description: pb?.description
                 }
@@ -142,6 +144,12 @@ router.post('/cuotization', async (req, res) => {
             //     return null
             // }
         }).filter(pm => pm);
+
+        // 
+        cuotization.totals = {
+            ...cuotization.totals,
+            discount_amount: cuotization.totals?.discount_amount
+        };
 
         res.json(cuotization);
     } catch (error) {

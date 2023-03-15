@@ -1996,3 +1996,285 @@
 [2023-01-20T16:33:08.670] [ERROR] everything - error inesperado {}
 [2023-01-20T16:33:21.196] [ERROR] everything - error inesperado {}
 [2023-01-20T16:33:41.091] [ERROR] everything - Cannot set headers after they are sent to the client
+[2023-02-22T14:42:23.573] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-22T14:42:25.143] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-22T14:43:01.173] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-22T14:43:02.474] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-22T16:11:32.067] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-22T16:11:33.530] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-22T16:12:52.043] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-22T16:13:14.160] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-22T16:13:15.310] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-22T16:13:33.618] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-22T16:14:16.178] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-22T21:37:05.661] [ERROR] everything - error inesperado {}
+[2023-02-22T21:38:05.643] [ERROR] everything - error inesperado {}
+[2023-02-22T21:39:05.620] [ERROR] everything - error inesperado {}
+[2023-02-22T21:40:05.649] [ERROR] everything - error inesperado {}
+[2023-02-22T21:41:05.621] [ERROR] everything - error inesperado {}
+[2023-02-22T21:42:48.654] [ERROR] everything - error inesperado {}
+[2023-02-22T21:43:48.625] [ERROR] everything - error inesperado {}
+[2023-02-22T21:44:48.629] [ERROR] everything - error inesperado {}
+[2023-02-22T21:45:48.633] [ERROR] everything - error inesperado {}
+[2023-02-22T21:46:48.637] [ERROR] everything - error inesperado {}
+[2023-02-22T21:47:48.655] [ERROR] everything - error inesperado {}
+[2023-02-22T21:48:48.632] [ERROR] everything - error inesperado {}
+[2023-02-22T21:49:48.641] [ERROR] everything - error inesperado {}
+[2023-02-22T21:50:48.651] [ERROR] everything - error inesperado {}
+[2023-02-22T21:51:48.649] [ERROR] everything - error inesperado {}
+[2023-02-22T21:52:05.113] [ERROR] everything - error inesperado {}
+[2023-02-22T21:52:48.651] [ERROR] everything - error inesperado {}
+[2023-02-22T21:53:48.629] [ERROR] everything - error inesperado {}
+[2023-02-22T21:54:48.632] [ERROR] everything - error inesperado {}
+[2023-02-22T21:55:48.643] [ERROR] everything - error inesperado {}
+[2023-02-22T21:56:48.636] [ERROR] everything - error inesperado {}
+[2023-02-22T21:57:48.654] [ERROR] everything - error inesperado {}
+[2023-02-22T21:58:48.632] [ERROR] everything - error inesperado {}
+[2023-02-22T21:59:48.629] [ERROR] everything - error inesperado {}
+[2023-02-22T22:00:48.641] [ERROR] everything - error inesperado {}
+[2023-02-22T22:01:48.636] [ERROR] everything - error inesperado {}
+[2023-02-22T22:02:48.651] [ERROR] everything - error inesperado {}
+[2023-02-22T22:03:48.637] [ERROR] everything - error inesperado {}
+[2023-02-22T22:04:48.636] [ERROR] everything - error inesperado {}
+[2023-02-22T22:05:48.651] [ERROR] everything - error inesperado {}
+[2023-02-22T22:06:48.636] [ERROR] everything - error inesperado {}
+[2023-02-22T22:07:48.650] [ERROR] everything - error inesperado {}
+[2023-02-22T22:08:48.632] [ERROR] everything - error inesperado {}
+[2023-02-22T22:09:49.206] [ERROR] everything - error inesperado {}
+[2023-02-22T22:10:49.216] [ERROR] everything - error inesperado {}
+[2023-02-22T22:11:49.198] [ERROR] everything - error inesperado {}
+[2023-02-22T22:12:49.215] [ERROR] everything - error inesperado {}
+[2023-02-22T22:13:49.197] [ERROR] everything - error inesperado {}
+[2023-02-22T22:14:49.199] [ERROR] everything - error inesperado {}
+[2023-02-22T22:15:49.211] [ERROR] everything - error inesperado {}
+[2023-02-22T22:16:49.206] [ERROR] everything - error inesperado {}
+[2023-02-22T22:17:49.223] [ERROR] everything - error inesperado {}
+[2023-02-22T22:18:49.193] [ERROR] everything - error inesperado {}
+[2023-02-22T22:19:49.194] [ERROR] everything - error inesperado {}
+[2023-02-22T22:20:49.207] [ERROR] everything - error inesperado {}
+[2023-02-23T08:55:18.650] [ERROR] everything - error inesperado {}
+[2023-02-23T08:59:48.678] [ERROR] everything - El token invalido.
+[2023-02-23T10:21:31.418] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T10:35:16.150] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T10:37:02.382] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T10:43:15.469] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T10:43:36.397] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T10:43:42.443] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T10:43:56.681] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T10:46:49.564] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T10:51:24.879] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T10:51:32.582] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T10:51:59.048] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T10:58:19.550] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T10:58:57.726] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:00:08.606] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:00:25.272] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:28:55.719] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:40:17.898] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:40:19.591] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:40:38.657] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:40:39.825] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:40:49.175] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:40:50.726] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:40:57.683] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:40:58.741] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:41:09.319] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:41:44.169] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:43:16.597] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:43:18.065] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:43:24.047] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:43:46.995] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:43:59.571] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:44:09.015] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:44:22.168] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:45:01.259] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:45:17.980] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:56:38.959] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T11:56:57.868] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T12:03:56.606] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T12:03:59.628] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:14:42.169] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:14:53.554] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:14:59.876] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:18:27.361] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:22:26.425] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:22:31.265] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:22:43.399] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:22:49.577] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:23:13.476] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:23:34.338] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:23:57.273] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:24:05.658] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:24:25.425] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:24:40.311] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:24:53.753] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:25:05.596] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:25:14.014] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:25:23.473] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:25:50.275] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:26:14.714] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:28:22.636] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:28:22.872] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:28:44.205] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:28:58.640] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:29:00.906] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:33:28.583] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:42:33.008] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:42:36.312] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:42:41.757] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:42:46.080] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:42:56.911] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:43:02.760] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:44:12.415] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:44:15.760] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:44:42.249] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:45:06.552] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:45:29.794] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:45:33.790] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:45:49.327] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:46:55.315] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:47:13.167] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:47:18.134] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:47:21.071] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:48:08.281] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:48:57.192] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:50:58.116] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:50:58.336] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:53:32.014] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:53:33.042] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:53:33.352] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:54:11.986] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:54:13.986] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:54:16.304] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:54:17.475] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:54:52.842] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T14:54:56.459] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:06:59.325] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:11:04.188] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:11:07.382] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:11:20.514] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:12:30.268] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:12:45.251] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:13:08.234] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:13:10.563] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:13:20.402] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:13:31.855] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:13:53.859] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:18:05.852] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:21:24.248] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:22:25.877] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:22:45.544] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:22:54.465] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:23:02.838] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:25:57.131] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:36:53.727] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T15:42:48.118] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T16:10:22.671] [ERROR] everything - El token invalido.
+[2023-02-23T16:40:44.646] [ERROR] everything - El token invalido.
+[2023-02-23T17:04:40.151] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T17:04:42.695] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T17:05:05.393] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T17:09:20.819] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T17:13:58.560] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T17:14:21.825] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T17:14:37.412] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T17:16:39.004] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:35:09.216] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:35:10.357] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:35:50.895] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:35:51.856] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:36:33.119] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:36:33.216] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:37:18.735] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:37:52.480] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:38:06.570] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:38:36.800] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-02-23T20:50:36.551] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-02-23T20:50:37.301] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:50:37.807] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:52:56.347] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:53:39.707] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:54:11.190] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:54:34.678] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:54:45.255] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:54:59.703] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:55:12.127] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T20:55:35.681] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T21:08:32.691] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-02-23T21:10:33.098] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-02-23T21:12:38.681] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T21:14:36.853] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T21:15:01.297] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-23T21:22:31.754] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-02-24T13:48:26.789] [ERROR] everything - El token invalido.
+[2023-02-24T14:48:42.626] [ERROR] everything - El token invalido.
+[2023-02-24T14:48:44.497] [ERROR] everything - El token del usuario (customerToken) es requerido
+[2023-02-24T17:23:33.855] [ERROR] everything - Provided customer ID "%customer_id" isn't related to current customer address.
+[2023-02-24T17:23:39.473] [ERROR] everything - Provided customer ID "%customer_id" isn't related to current customer address.
+[2023-02-25T22:16:34.667] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-02-26T18:51:00.448] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-26T18:51:00.675] [ERROR] everything - error inesperado {}
+[2023-02-26T18:51:01.873] [ERROR] everything - error inesperado {}
+[2023-02-26T18:52:00.579] [ERROR] everything - error inesperado {}
+[2023-02-26T18:53:40.608] [ERROR] everything - error inesperado {}
+[2023-02-26T18:54:40.602] [ERROR] everything - error inesperado {}
+[2023-02-26T18:55:40.581] [ERROR] everything - error inesperado {}
+[2023-02-26T19:12:20.367] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-02-26T19:14:17.467] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-02-26T19:17:11.511] [INFO] everything - PAN HARINA MAIZ 1 KGsetItemToCartEl producto que intentas agregar no está disponible.
+[2023-02-26T19:20:14.742] [ERROR] everything - Cannot read property 'status' of undefined
+[2023-02-26T19:28:19.514] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-02-26T19:34:17.239] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-02-26T19:48:23.309] [ERROR] everything - error inesperado {}
+[2023-02-26T21:15:00.683] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-02-26T21:16:26.583] [ERROR] everything - error inesperado {}
+[2023-02-26T21:17:16.627] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-02-26T21:21:40.786] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-02-26T21:29:28.114] [ERROR] everything - error inesperado {}
+[2023-02-26T21:30:19.792] [ERROR] everything - connect ENETUNREACH 172.67.74.59:443
+[2023-02-26T21:30:19.869] [ERROR] everything - error inesperado {}
+[2023-02-26T21:47:38.276] [INFO] everything - AUYAMA 1000GRupdateItemToCartError occurred during "item_id" processing. The "null" value's type is invalid. The "int" type was expected. Verify and try again.
+[2023-02-26T21:50:27.142] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-02-26T21:57:41.931] [ERROR] everything - El token invalido.
+[2023-02-26T22:28:28.609] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-03-05T13:52:23.646] [ERROR] everything - Error al refrescar token
+[2023-03-05T13:52:24.849] [ERROR] everything - El token del usuario (customerToken) es requerido
+[2023-03-05T13:53:00.094] [ERROR] everything - El código del cupón no es válido. Verifique el código e intente nuevamente.
+[2023-03-05T13:53:08.284] [ERROR] everything - El código del cupón no es válido. Verifique el código e intente nuevamente.
+[2023-03-05T13:54:18.370] [ERROR] everything - error inesperado {}
+[2023-03-05T13:54:18.378] [ERROR] everything - error inesperado {}
+[2023-03-05T13:55:00.421] [ERROR] everything - El código del cupón no es válido. Verifique el código e intente nuevamente.
+[2023-03-05T13:55:06.657] [ERROR] everything - El código del cupón no es válido. Verifique el código e intente nuevamente.
+[2023-03-05T13:58:50.287] [ERROR] everything - error inesperado {}
+[2023-03-05T14:00:27.465] [ERROR] everything - getaddrinfo EAI_AGAIN biomercados.com.ve
+[2023-03-15T09:59:37.493] [ERROR] everything - Debe mandar el storeId como query param
+[2023-03-15T09:59:53.778] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:00:14.267] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:00:15.670] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:01:25.563] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:01:38.992] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:02:11.625] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:02:31.854] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:02:55.870] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:03:13.724] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:03:14.937] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:03:22.397] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:03:31.142] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:03:32.282] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:03:37.655] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:03:38.589] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:03:46.516] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:04:05.763] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:04:14.395] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:04:15.700] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:04:27.551] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:04:28.582] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:04:29.585] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:04:40.762] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:05:51.616] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:05:52.699] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:06:03.439] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:06:04.913] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:10:34.048] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:11:05.597] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-03-15T10:11:09.320] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente

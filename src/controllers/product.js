@@ -159,10 +159,10 @@ router.get('/get-products/:storeId/:userId/', async (req, res) => {
 
     const age = await getUserAge(req).catch(e => {
     });
-    let isAdult = false;
-    if (age) {
-      isAdult = age >= 18;
-    }
+    let isAdult = true;
+    // if (age) {
+    //   isAdult = age >= 18;
+    // }
 
     if (userId !== 'null' && userId && isNaN(parseInt(userId))) {
       throw { code: 400, message: "El id del usuario debe ser numerico" }
@@ -187,9 +187,9 @@ router.get('/get-products/:storeId/:userId/', async (req, res) => {
   }
 });
 
-router.get('/get-bioinsuperables/:storeId', async (req, res) => {
+router.get('/get-bioinsuperables/:storeId/:productId?', async (req, res) => {
   try {
-    const { storeId } = req.params;
+    const { storeId, productId } = req.params;
 
     const age = await getUserAge(req).catch(e => {
     });
@@ -202,7 +202,7 @@ router.get('/get-bioinsuperables/:storeId', async (req, res) => {
       throw { code: 400, message: "El id de la tienda debe ser numerico" }
     }
 
-    const products = await getBioinsuperables(storeId, isAdult).catch(e => {
+    const products = await getBioinsuperables(storeId, productId, isAdult).catch(e => {
       console.log(e);
       throw { code: 400, message: "Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente" }
     });

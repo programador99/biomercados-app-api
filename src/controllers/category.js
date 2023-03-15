@@ -12,10 +12,10 @@ router.get('/category/:id', async (req, res) => {
 
     const age = await getUserAge(req).catch(e => {
     });
-    let isAdult = false;
-    if (age) {
-     isAdult = age >= 18;  
-    }
+    let isAdult = true;
+    // if (age) {
+    //  isAdult = age >= 18;  
+    // }
 
     if (isNaN(parseInt(categoryId))) {
       throw { code: 400, message: "El id de la categoria debe ser numerico" }

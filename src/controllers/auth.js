@@ -9,7 +9,9 @@ import {
   sendTokenChangePassword,
   loginSocial,
   getRefreshToken,
-  validateCurrentToken
+  validateCurrentToken,
+  matchedUser,
+  getMatchedUser
 } from "../services/auth"
 import { createHistorySearch, getHistorySearch, getUser } from "../services/users";
 
@@ -272,7 +274,35 @@ router.post('/social-login', async (req, res) => {
       res.status(500).json(error)
     }
   }
-})
+});
+
+router.get('/get-matched-user/:userId/:deviceId', async (req, res, next) => {
+  try {
+    console.info("hola");
+    const props = req.params;
+    console.info(props);
+    const userMatched = await getMatchedUser(props);
+    res.json(userMatched);
+  } catch (error) {
+    registerLogError(error.message);
+    res.status(400).json(error.message);
+  } finally {
+    next();
+  }
+});
+
+router.post('/matched-user', async (req, res, next) => {
+  try {
+    const props = req.body;
+    const userMatched = await matchedUser(props);
+    res.json(userMatched);
+  } catch (error) {
+    registerLogError(error.message);
+    res.status(400).json(error.message);
+  } finally {
+    next();
+  }
+});
 
 router.post('/register', async (req, res) => {
   try {

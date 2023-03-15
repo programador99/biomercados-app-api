@@ -176,9 +176,10 @@ export const synchronizeShoppingCart = async (cart_id, customerToken, view_store
       qty: product.quantity,
       cart_id,
       customerToken
-    }
+    };
 
-    if (!product.item_id) {
+    // if (!product?.item_id) {
+    if(!oldItems.some( a => a?.sku === product?.sku)) {
       /** si no existe el producto lo crea */
       await setItemToCart(productUpdate, view_store).catch(e => {
         console.log(product.name);
@@ -190,16 +191,17 @@ export const synchronizeShoppingCart = async (cart_id, customerToken, view_store
       });
     } else {
       /** de existir actualiza (sumar o restar unidades)  */
-
-
-      const item = oldItems.find(oldItem => oldItem.item_id === product.item_id);
+      const item = oldItems.find(oldItem => oldItem?.sku === product?.sku);
 
       /**validar que el item cambiara en cantidad */
       if (item && item?.quantity != product.quantity) {
-        await updateItemToCart(productUpdate, view_store, product.item_id).catch(e => {
+        await updateItemToCart({
+          ...productUpdate,
+          qty: product.quantity
+        }, view_store, item?.item_id).catch(e => {
           console.log(product.name);
           console.log('updateItemToCart', e.response.status, e.response.data.message);
-          registerLogInfo(product.name + 'updateItemToCart' + e.response.data.message);
+          registerLogInfo(product.name + ' updateItemToCart' + e.response.data.message);
           if (e.response.status == 401) {
             throw e;
           }
@@ -212,12 +214,12 @@ export const synchronizeShoppingCart = async (cart_id, customerToken, view_store
   }
 
   /** luego borrar los productos que ya no esten en el carrito */
-  for await (const productSave of oldItems) {
+  for await (const productSaved of oldItems) {
 
-    const item = items.find(item => item?.item_id === productSave.item_id);
+    const item = items.some(item => item?.sku === productSaved.sku);
     if (!item) {
 
-      await removeTotallyItemToCart(productSave.item_id, view_store, customerToken).catch(e => {
+      await removeTotallyItemToCart(productSaved.item_id, view_store, customerToken).catch(e => {
         if (e.response.status == 401) {
           throw e;
         }
@@ -253,8 +255,8 @@ export const updateItemToCart = (params, view_store, item_id) => {
   const { sku, qty, cart_id, customerToken } = params;
   const cartData = {
     cartItem: {
-      sku: sku,
-      qty: qty,
+      sku,
+      qty,
       quote_id: cart_id
     }
   };
