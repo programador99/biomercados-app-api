@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 
-app.set('port',process.env.PORT|| 3001)
+app.set('port',process.env.PORT|| 3010)
 
 app.use(express.json());
 
