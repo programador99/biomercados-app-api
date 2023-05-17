@@ -465,25 +465,39 @@ export const extractProductRestricted = async (categories) => {
     return categoriesFormat;
 }
 
+const getTotalDays = (dateString = -1) => {
+    if (!dateString || dateString === '') {
+        return 0;
+    }
+
+    const date = new Date(dateString);
+    const current = new Date();
+    const difference = date.getTime() - current.getTime();
+    const totalDays = Math.ceil(difference / (1000 * 3600 * 24));
+    return totalDays;
+};
+
 const formatProductsMoreSeller = async (categories, storeId) => {
     let productsMoreSeller = [];
     let bioInsuperables = [];
     for (let category of categories) {
         category = JSON.parse(JSON.stringify(category));
-        category.products = await Promise.all(category.products.map(async product => {
+        category.products = (await Promise.all(category.products.map(async product => {
             const dbProduct = await Product.findOne({
                 sku: product
-            }, {__v: 0, _id: 0});
+            }, { __v: 0, _id: 0 });
 
             let price = 0;
             let stock = 0;
             let bioinsuperable = false;
+            let oferta = false;
             if (storeId) {
                 const productInStore = dbProduct.stores.filter(st => st.id == storeId)[0];
                 if (productInStore) {
-                    price = productInStore.price
-                    stock = productInStore.stock
-                    bioinsuperable = productInStore.bioinsuperable
+                    price = productInStore.price;
+                    stock = productInStore.stock;
+                    bioinsuperable = productInStore.bioinsuperable;
+                    oferta = productInStore.oferta;
                 }
             }
             const formatProduct = {
@@ -494,10 +508,23 @@ const formatProductsMoreSeller = async (categories, storeId) => {
                 price,
                 stock,
                 bioinsuperable,
-                tax: dbProduct.tax
+                oferta,
+                tax: dbProduct.tax,
+                expirationpush: dbProduct?.expirationpush
             };
             return formatProduct;
-        }));
+        }))).sort((a, b) => {
+            // Priorizar productos por fecha de posicionamiento con expiracion
+            const dateA = getTotalDays(a?.expirationpush);
+            const dateB = getTotalDays(b?.expirationpush);
+
+            // Si el posicionamiento esta vencido
+            if(dateA < 0) {
+                return 0;
+            }
+
+            return dateB-dateA;
+        });
 
         // Metodo de ordenamiento
         if (category.products.length > 0) {
@@ -545,12 +572,14 @@ const formatProducts = (products, storeId, count, search) => {
             let price = 0;
             let stock = 0;
             let bioinsuperable = false;
+            let oferta = false;
             if (storeId) {
                 const productInStore = product.stores.filter(st => st.id == storeId)[0];
                 if (productInStore) {
                     price = productInStore.price
                     stock = productInStore.stock
                     bioinsuperable = productInStore.bioinsuperable
+                    oferta = productInStore.oferta;
                 }
             }
 
@@ -563,6 +592,7 @@ const formatProducts = (products, storeId, count, search) => {
                 price,
                 stock,
                 bioinsuperable,
+                oferta,
                 brand: product.brand,
                 tax: product.tax,
                 description: product.description
@@ -584,12 +614,14 @@ export const formatProduct = (products, storeId) => {
         let price = 0;
         let stock = 0;
         let bioinsuperable = false;
+        let oferta = false;
         if (storeId) {
             const productInStore = product.stores.filter(st => st.id == storeId)[0];
             if (productInStore) {
                 price = productInStore.price
                 stock = productInStore.stock
                 bioinsuperable = productInStore.bioinsuperable
+                oferta = productInStore.oferta;
             }
         }
         return {
@@ -601,6 +633,7 @@ export const formatProduct = (products, storeId) => {
             price,
             stock,
             bioinsuperable,
+            oferta,
             brand: product.brand,
             tax: product.tax
         };

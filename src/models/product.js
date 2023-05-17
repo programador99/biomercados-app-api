@@ -14,6 +14,7 @@ const productSchema = new mongoose.Schema({
   brand: Object,
   origin: Object,
   packing: Object,
+  expirationpush: String,
   tax: Number,
   isAgeRestricted: Boolean,
   description: Object,
