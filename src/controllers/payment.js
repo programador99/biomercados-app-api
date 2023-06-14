@@ -188,19 +188,114 @@ router.post('/create-order', async (req, res) => {
         }
 
         const params = req.body;
-        const response = await customerCreateOrder(params).catch(e => {
-            throw { code: e.response.status, message: e.response.data.message }
-        });
+        const response = await customerCreateOrder(params);
         res.status(200).json(response);
     } catch (error) {
-        if (error.code && error.message) {
+        if (error?.code && error?.message) {
             registerLogError(error.message);
-            res.status(error.code).json(error.message);
+            res.status(400).json(error?.message);
         } else {
             registerLogError('error inesperado ' + JSON.stringify(error));
             res.status(500).json(error);
         }
     }
+});
+
+router.get('/c2p-banks', async (req, res) => {
+    const banks = [
+        {
+            code: '0105',
+            name: 'Mercantil Banco Universal'
+          },
+          {
+            code: '0134',
+            name: 'Banesco Banco Universal'
+          },
+          {
+            code: '0102',
+            name: 'Banco de Venezuela'
+          },
+          {
+            code: '0106',
+            name: 'Banco Provincial'
+          },
+          {
+            code: '0191',
+            name: 'Banco Nacional de Credito'
+          },
+          {
+            code: '0114',
+            name: 'Bancaribe'
+          },
+          {
+            code: '0172',
+            name: 'Bancamiga Banco Universal'
+          },
+          {
+            code: '0163',
+            name: 'Banco del Tesoro'
+          },
+          {
+            code: '0115',
+            name: 'Banco Exterior'
+          },
+          {
+            code: '0151',
+            name: 'BFC Banco Fondo Comun'
+          },
+          {
+            code: '0104',
+            name: 'Banco Venezolano de Credito'
+          },
+          {
+            code: '0177',
+            name: 'Banco de la Fuerza Armada'
+          },
+          {
+            code: '0174',
+            name: 'Banplus Banco Universal'
+          },
+          {
+            code: '0138',
+            name: 'Banco Plaza'
+          },
+          {
+            code: '0156',
+            name: '100% Banco'
+          },
+          {
+            code: '0171',
+            name: 'Banco Activo'
+          },
+          {
+            code: '0157',
+            name: 'Del Sur Banco Universal'
+          },
+          {
+            code: '0137',
+            name: 'Banco Sofitasa'
+          },
+          {
+            code: '0169',
+            name: 'Mi Banco, Banco Microfinanciero'
+          },
+          {
+            code: '0175',
+            name: 'Banco Bicentenario'
+          },
+          {
+            code: '0128',
+            name: 'Banco Caroni'
+          }
+      ].sort( (a, b) => {
+        if(a.name <= b.name ) {
+            return -1;
+        } else {
+            return 0;
+        }
+      } );
+
+      res.json(banks);
 });
 
 module.exports = router;
