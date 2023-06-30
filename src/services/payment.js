@@ -137,19 +137,35 @@ export const customerCreateOrder = async (params) => {
                 const { method, additional_data } = payment_method;
 
                 let approvedTransaction = method === 'c2p_megasoft' ? false : true;
+                let messageTransaction = '';
 
                 if (method == 'c2p_megasoft' && additional_data) {
-                    const responseControl = await createControlC2P();
+                    // console.info("Procesando pago");
+                    const responseControl = await createControlC2P().catch( () => {
+                        throw "Servicio no disponible temporalmente, por favor intente mas tarde.";
+                    });
+                    // console.info("control", responseControl)
                     const statusPayment = await verifyC2P(responseControl?.control);
+                    // console.info("statusPayment", statusPayment)
                     if (statusPayment?.codigo === '09' && statusPayment?.estado === 'P') {
                         const payment = await processPaymentC2P({
                             ...additional_data, control: responseControl?.control
                         });
 
+                        // console.info("payment", payment)
+
                         if (payment?.codigo === '00' && payment?.descripcion === 'APROBADA') {
                             approvedTransaction = true;
-                        } else if(payment?.codigo === '99') {
+                        } else if (payment?.codigo === '51') {
+                            throw "Saldo insuficiente";
+                        } else if (payment?.codigo === '99') {
                             throw "Transaccion fallida.";
+                        } else if (payment?.codigo === 'PC') {
+                            throw "El numero de referencia ya fue utilizado en otro pago.";
+                        } else if (payment?.codigo === 'PB') {
+                            throw "Los datos suministrados no coinciden";
+                        } else if (payment?.codigo === 'VS') {
+                            throw "En este momento no podemos procesar su transaccion, por favor intenta mas tarde.";
                         }
                     }
                 }
@@ -235,7 +251,7 @@ const verifyC2P = async (control) => {
         "Content-Type": 'text/xml'
     });
     const responseJson = parseResponse(responseXml, ['control', 'cod_afiliacion', 'factura', 'monto', 'estado', 'codigo', 'descripcion', 'vtid', 'seqnum', 'authid', 'authname', 'tarjeta', 'referencia', 'terminal', 'lote', 'rifbanco', 'afiliacion', 'voucher'], 'response');
-    console.info(responseJson);
+    // console.info(responseJson);
     return responseJson;
 };
 
@@ -261,5 +277,6 @@ const processPaymentC2P = async (data) => {
         "Content-Type": 'text/xml'
     });
     const responseJson = parseResponse(responseXml, ['control', 'codigo', 'descripcion', 'vtid', 'seqnum', 'authid', 'authname', 'factura', 'referencia', 'terminal', 'lote', 'rifbanco', 'afiliacion'], 'response');
+    // console.info(responseXml);
     return responseJson;
 }
