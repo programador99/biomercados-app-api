@@ -1,6 +1,6 @@
 import express from "express";
 import { getfilters } from "../services/filters";
-import { autocompleteProductNameSearch, formatProduct, getProductBySku, getProducts, getProductsMoreSeller, getRelatedProducts, getBioinsuperables } from "../services/product";
+import { autocompleteProductNameSearch, formatProduct, getProductBySku, getProducts, getProductsMoreSeller, getRelatedProducts, getBioinsuperables, qtyAvaliable } from "../services/product";
 import { getMoreSearch, getUserAge } from "../services/users";
 
 import { registerLogError } from "../middlewares/registerLog";
@@ -247,7 +247,30 @@ router.get('/product-detail', async (req, res) => {
       res.status(500).json(error);
     }
   }
-})
+});
+
+router.get('/qty-avaliable/:storeView/:sku', async (req, res, next) => {
+  try {
+    const { sku, storeView } = req.params;
+
+    if(!sku) {
+      throw new Error("El campo: (sku) es requerido.");
+    }
+
+    if(!storeView) {
+      throw new Error("El campo: (storeView) es requerido.");
+    }
+
+    const product = await qtyAvaliable(sku, storeView);
+    
+    res.json(product);
+    next();
+  } catch (error) {
+    res.status(500).json(error?.message);
+  }
+});
+
+
 
 
 module.exports = router;

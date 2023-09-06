@@ -1,6 +1,7 @@
 import express from "express";
 import { activeCard, getCardTokenInformation, makePayment, sendMicroCharge } from "../../services/payment_gateways/net247";
 import { registerLogError } from "../../middlewares/registerLog";
+import { banesco } from "../../services/payment_gateways/banesco";
 
 let router = express.Router();
 
@@ -13,6 +14,7 @@ router.get('/net247/check', async (req, res) => {
         const response = await getCardTokenInformation(encodedCard);
         res.status(200).json(response);
     } catch (error) {
+        y
         if (error.code && error.message) {
             registerLogError(error.response.data);
             res.status(error.response.status).json(error.response.data);
@@ -28,19 +30,16 @@ router.post('/net247/microCharge', async (req, res) => {
         const cardInformation = req.body;
 
         if (!cardInformation.account) {
-            throw { code: 400, message: "el account es requerido en el payload" }
+            throw { code: 400, message: "El account es requerido." }
         }
         if (!cardInformation.expiry) {
-            throw { code: 400, message: "el expiry es requerido en el payload" }
-        }
-        if (!cardInformation.account) {
-            throw { code: 400, message: "el account es requerido en el payload" }
+            throw { code: 400, message: "El expiry es requerido." }
         }
         if (!cardInformation.postal) {
-            throw { code: 400, message: "el postal es requerido en el payload" }
+            throw { code: 400, message: "El postal es requerido." }
         }
         if (!cardInformation.cvv2) {
-            throw { code: 400, message: "el cvv2 es requerido en el payload" }
+            throw { code: 400, message: "El cvv2 es requerido." }
         }
 
         const response = await sendMicroCharge(cardInformation);
@@ -117,6 +116,26 @@ router.post('/net247/pos/payment', async (req, res) => {
             res.status(error.code).json(error.message);
         } else {
             registerLogError('error inesperado ' + JSON.stringify(error));
+            res.status(500).json(error);
+        }
+    }
+});
+
+router.post('/banesco/check', async (req, res) => {
+    try {
+        const payload = req.body;
+        if (!payload) throw {
+            code: 400,
+            message: 'Comprobante invalido!'
+        };
+
+        const response = await banesco.check(payload);
+        res.json(response);
+    } catch (error) {
+        if (error.code && error.message) {
+            res.status(error?.code ?? 500).json(error?.message ?? 'Error inesperado del servidor');
+        } else {
+            registerLogError('Error inesperado ' + JSON.stringify(error));
             res.status(500).json(error);
         }
     }

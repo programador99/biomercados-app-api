@@ -32,9 +32,9 @@ export const constructJSON = (sliders) => {
     const urlMedia = MEDIA_URL_MAGENTO;
     let result = [];
     let temp = {};
-
     if (sliders.content.length === 1) {
         if (sliders.content[0].hasOwnProperty('attributes')) {
+            // Extraccion link url
             if (sliders.content[0].attributes.hasOwnProperty('href')) {
                 temp = { ...sliders.content[0].attributes, search_filter: sliders.content[0].attributes.href.split('/?q=')[1] };
             }

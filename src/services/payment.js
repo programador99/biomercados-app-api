@@ -1,6 +1,8 @@
 import { httpGet, httpPost } from "./axios"
 import { getCustomerById } from "./users"
 
+const C2P_MEGASOFT = 'c2p_megasoft';
+
 const { MEGASOFT_URI, MEGASOFT_USER, MEGASOFT_PASS, MEGASOFT_C2P_AFFILIATECODE } = process.env;
 const buff = Buffer.from(`${MEGASOFT_USER}:${MEGASOFT_PASS}`, 'utf-8');
 const auth = buff.toString('base64');
@@ -136,12 +138,12 @@ export const customerCreateOrder = async (params) => {
                 // Validacion de tipo de pago
                 const { method, additional_data } = payment_method;
 
-                let approvedTransaction = method === 'c2p_megasoft' ? false : true;
+                let approvedTransaction = method === C2P_MEGASOFT ? false : true;
                 let messageTransaction = '';
 
-                if (method == 'c2p_megasoft' && additional_data) {
+                if (method == C2P_MEGASOFT && additional_data) {
                     // console.info("Procesando pago");
-                    const responseControl = await createControlC2P().catch( () => {
+                    const responseControl = await createControlC2P().catch(() => {
                         throw "Servicio no disponible temporalmente, por favor intente mas tarde.";
                     });
                     // console.info("control", responseControl)
@@ -188,7 +190,10 @@ export const customerCreateOrder = async (params) => {
                 };
 
                 if (approvedTransaction) {
-                    const orderInformation = await httpPost(`rest/${store_view}/V1/carts/mine/payment-information`, payload, customer_token);
+                    const orderInformation = await httpPost(`rest/${store_view}/V1/carts/mine/payment-information`, payload, customer_token)
+                        .catch(() => {
+                            throw "Se ha generado un error al intentar crear la orden, por favor comunicarse con soporte.";
+                        });
                     const order = await getOrderById(orderInformation);
 
                     return { order_id: order.increment_id };

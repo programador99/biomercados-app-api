@@ -3,6 +3,8 @@ import { getBanners, getCMSBlock, getCountries, getCountry, getFrequentQuestions
 
 import { registerLogInfo, registerLogError } from "../middlewares/registerLog";
 
+const { BANNER_CMS_BLOCK_ID } = process.env;
+
 let router = express.Router();
 
 router.get('/store', async (req, res) => {
@@ -133,8 +135,9 @@ router.get('/getTax', async (req, res) => {
 
 router.get('/getBanners', async (req, res) => {
   try {
-    let idCmsBlock = 51;
+    let idCmsBlock = BANNER_CMS_BLOCK_ID;
     let sliders = await getBanners(idCmsBlock).catch(e => {
+      console.error("Error", e);
       throw { code: e.response.status, message : e.response.data.message}
     });
     res.status(200).json(sliders);

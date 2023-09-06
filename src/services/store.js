@@ -192,7 +192,10 @@ const formatBanners = (banners) => {
       brand = brand.toUpperCase()
     }
     return {
-      image : banner.media.mobile_image.replace('.jpeg' || '.png', '.webp'),
+      image : {
+        mobile: banner.media.mobile_image.replace('.jpeg' || '.png', '.webp'),
+        desktop: banner.media.desktop_image.replace('.jpeg' || '.png', '.webp'),
+      },
       brand: brand
     }
   })

@@ -4,27 +4,79 @@ import ProductMoreSeller from '../models/productsMoreSeller.js'
 import { httpGet } from './axios';
 import { saveHistorySearch } from './users';
 
+const elasticSuiteSearch = async (search, currentPage = 0, pageSize = 20) => {
+    try {
+        if (!search) throw "invalied parameter";
+
+        const products = await httpGet(`rest/V1/search?searchCriteria[requestName]=quick_search_container&searchCriteria[filter_groups][0][filters][0][field]=search_term&searchCriteria[filter_groups][0][filters][0][value]=${search}&searchCriteria[currentPage]=${currentPage}&searchCriteria[page_size]=${pageSize}`);
+        // console.info("Listado", products);
+        return products;
+    } catch (error) {
+        throw error;
+    }
+};
+
+const searchElastic = async (params, storeId) => {
+    const { search, page, size } = params;
+    let elasticProducts = search ? await elasticSuiteSearch(search, page, size) : { items: [], total_count: 0 };
+    let { total_count } = elasticProducts;
+
+    elasticProducts = (await Promise.all(elasticProducts?.items?.map(async eProduct => {
+        const product = await Product.findOne({ id: eProduct?.id, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 });
+
+        if (product) {
+            return product;
+        }
+    }))).filter(product => product);
+
+    elasticProducts = formatProducts(elasticProducts, storeId, total_count, params.search);
+
+    return { ...elasticProducts };
+};
 
 export const getProducts = async (params, storeId, userId, isAdult) => {
+    try {
+        if (userId) {
+            await saveHistorySearch(userId, params.search);
+        }
 
-    if (userId) {
-        await saveHistorySearch(userId, params.search);
+        if (!params?.search || params.search === '') {
+            // console.info("listado", elasticProducts);
+            const query = constructQuery(params, storeId, isAdult);
+            const sort = constructSort(params);
+            // const paginate = constructPaginate(params);
+            // const count = await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }).count();
+            // products -> Product.find sera desactivado por elasticProducts
+            let products = (await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }));
+            // console.info("productos", products.length)
+            const categories = await Category.find(null, { __v: 0, _id: 0 });
+            const filterProducts = params.search ? searchDG({ ...params, storeId }, products, categories) : positionFirstProductCategory(products, params?.bioinsuperable);
+            // return filterProducts
+
+            const total = formatProducts(filterProducts, storeId, filterProducts.length, params.search);
+            let totalProducts = [];
+            total.products.forEach(product => {
+                if (!totalProducts.some(item => item?.sku == product?.sku)) {
+                    // console.info(product);
+                    totalProducts.push(product);
+                }
+            });
+
+            console.info(totalProducts.length);
+            console.info(params?.size);
+
+            let paginateProducts = paginateArray(parseInt(params?.size ?? 20), totalProducts)[params?.page ?? 0];
+
+            return { products: paginateProducts, count: filterProducts.length };
+        } else {
+            const products = searchElastic(params, storeId);
+
+            return products;
+        }
+    } catch (error) {
+        console.error(error);
+        throw error;
     }
-
-
-    const query = constructQuery(params, storeId, isAdult);
-    const sort = constructSort(params);
-    // const paginate = constructPaginate(params);
-    // const count = await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }).count();
-    const products = (await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }));
-
-    // console.info("productos", products.length)
-    const categories = await Category.find(null, { __v: 0, _id: 0 });
-    const filterProducts = params.search ? search({ ...params, storeId }, products, categories) : positionFirstProductCategory(products, params?.bioinsuperable);
-    // return filterProducts
-
-    const total = formatProducts(filterProducts, storeId, filterProducts.length, params.search);
-    return { products: paginateArray(10, total.products)[params?.page ?? 0], count: filterProducts.length };
 }
 
 export const getBioinsuperables = async (storeId, productId, isAdult) => {
@@ -95,7 +147,7 @@ function randomIntFromInterval(min, max) { // min and max included
 // prioridad a los productos de la propia categoria con foto
 function positionFirstProductCategory(array, bioinsuperable = null) {
     const products = array.map(product => {
-        const productCategories = product.categories.filter(category => category.isParent === true);
+        const productCategories = product.categories.filter(category => category?.isParent === true);
 
         if (productCategories.length > 1) {
             return {
@@ -124,12 +176,13 @@ function cleanText(str) {
 }
 
 // Algoritmo de busqueda
-function search(params, array, categories) {
+function searchDG(params, array, categories) {
     let result = [];
 
     try {
         let { search, storeId, size, page } = params;
-        const off_product_words = ['bio insuperable', 'bio insuperables', 'bioinsuperable', 'bioinsuperables', 'oferta', 'ofertas'];
+        const off_product_words_bioinsuperable = ['bio insuperable', 'bio insuperables', 'bioinsuperable', 'bioinsuperables'];
+        const off_product_words_oferta = ['oferta', 'ofertas'];
 
         // Maestro de categorias para filtrado 
         search = search?.trim();
@@ -151,15 +204,28 @@ function search(params, array, categories) {
 
             // Filtrar productos coincidentes a la categoria
             categoriesFiltres.forEach(categoryId => {
-                if (item?.categories?.some(itemCat => itemCat.id === categoryId)) {
+                if (item?.categories?.some(itemCat => itemCat?.id === categoryId)) {
                     flag += 10;
                 }
             });
 
-            // Busca palabras clave para ofertas o bio insuperables
-            off_product_words.forEach(word => {
+            // Busca palabras clave para bio insuperables
+            off_product_words_bioinsuperable.forEach(word => {
                 if (search?.toLowerCase()?.includes(word)) {
                     if (item.stores.some(st => st.id === storeId && st.bioinsuperable === true)) {
+                        flag += 100;
+                    }
+
+                    if (!item.image.includes('bio_placeholder')) {
+                        flag += 10;
+                    }
+                }
+            });
+
+            // Busca palabras clave para ofertas
+            off_product_words_oferta.forEach(word => {
+                if (search?.toLowerCase()?.includes(word)) {
+                    if (item.stores.some(st => st.id === storeId && st.oferta === true)) {
                         flag += 100;
                     }
 
@@ -480,6 +546,8 @@ const getTotalDays = (dateString = -1) => {
 const formatProductsMoreSeller = async (categories, storeId) => {
     let productsMoreSeller = [];
     let bioInsuperables = [];
+    let ofertas = [];
+    let nuevos = [];
     for (let category of categories) {
         category = JSON.parse(JSON.stringify(category));
         category.products = (await Promise.all(category.products.map(async product => {
@@ -519,24 +587,28 @@ const formatProductsMoreSeller = async (categories, storeId) => {
             const dateB = getTotalDays(b?.expirationpush);
 
             // Si el posicionamiento esta vencido
-            if(dateA < 0) {
+            if (dateA < 0) {
                 return 0;
             }
 
-            return dateB-dateA;
+            return dateB - dateA;
         });
 
         // Metodo de ordenamiento
         if (category.products.length > 0) {
             if (category.id == -1) {
                 bioInsuperables.push(category);
+            } else if (category.id == -2) {
+                ofertas.push(category);
+            } else if (category.id == -3) {
+                nuevos.push(category);
             } else {
                 productsMoreSeller.push(category);
             }
         }
 
     }
-    return [...bioInsuperables, ...productsMoreSeller];
+    return [...bioInsuperables, ...ofertas, ...nuevos, ...productsMoreSeller];
 }
 
 export const getRelatedProducts = async (sku) => {
@@ -638,7 +710,24 @@ export const formatProduct = (products, storeId) => {
             tax: product.tax
         };
     })
-}
+};
+
+export const qtyAvaliable = async (sku, storeView) => {
+    try {
+        const url = `rest/${storeView}/V1/stockStatuses/${sku}?fields=product_id,stock_id,qty,stock_status`;
+        const product = await httpGet(url);
+
+        if (product) {
+            if (product?.qty <= 0) {
+                return { isAvaliable: false };
+            } else {
+                return { isAvaliable: true };
+            }
+        }
+    } catch (error) {
+        throw error;
+    }
+};
 
 const paginateArray = (size, xs) =>
     xs.reduce((segments, _, index) =>

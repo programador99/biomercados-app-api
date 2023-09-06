@@ -8,6 +8,7 @@ const axios = axiosApp.create({
   })
 });
 
+const { BANESCO_DNS } = process.env;
 const baseUrl = process.env.BASE_URL_API_MAGENTO;
 const bearerToken = process.env.BASE_BEARER_TOKEN_MAGENTO || '';
 const headers = {
@@ -21,7 +22,7 @@ export const httpGet = async (url, customerToken = bearerToken) => {
       ...headers,
       "Authorization": `Bearer ${customerToken}`
     }
-   });
+  });
   return response.data;
 }
 
@@ -33,6 +34,17 @@ export const httpPost = async (url, payload, customerToken = bearerToken, base =
     },
   });
   return data;
+}
+
+export const http = {
+  post: async (url, payload, head = headers) => {
+    const { data } = await axios.post(BANESCO_DNS + url, payload, {
+      headers: {
+        ...head
+      }
+    });
+    return data;
+  }
 }
 
 export const httpPut = async (url, payload, customerToken = bearerToken) => {
