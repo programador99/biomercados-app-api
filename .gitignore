@@ -1,4 +1,6 @@
 /node_modules
 .env
-
+/file.log
+file.log
+/*.log
 build/
