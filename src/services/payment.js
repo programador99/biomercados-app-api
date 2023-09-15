@@ -1,6 +1,10 @@
 import { httpGet, httpPost } from "./axios"
 import { getCustomerById } from "./users"
 
+const { MEGASOFT_URI, MEGASOFT_USER, MEGASOFT_PASS, MEGASOFT_C2P_AFFILIATECODE } = process.env;
+const buff = Buffer.from(`${MEGASOFT_USER}:${MEGASOFT_PASS}`, 'utf-8');
+const auth = buff.toString('base64');
+
 
 export const getShippingMethod = async (cartId) => {
     const url = 'rest/V1/carts/' + cartId + '/shipping-methods';
@@ -119,35 +123,160 @@ const getOrderById = async (orderId) => {
 };
 
 export const customerCreateOrder = async (params) => {
-    const { store_view, customer_id, customer_token, shipping_address_id, payment_method } = params;
-    const customer = await getCustomerById(customer_id);
+    try {
+        const { store_view, customer_id, customer_token, shipping_address_id, payment_method } = params;
+        const customer = await getCustomerById(customer_id);
 
-    if (customer) {
+        if (customer) {
 
-        const billingAddress = customer.addresses.find(address => address.id == shipping_address_id);
+            const billingAddress = customer.addresses.find(address => address.id == shipping_address_id);
 
-        if (billingAddress) {
-            const payload = {
-                paymentMethod: payment_method,
-                billing_address: {
-                    email: customer.email,
-                    region: billingAddress.region.region,
-                    region_id: billingAddress.region_id,
-                    region_code: billingAddress.region.region_code,
-                    country_id: billingAddress.country_id,
-                    street: billingAddress.street,
-                    postcode: billingAddress.postcode,
-                    city: billingAddress.city,
-                    telephone: billingAddress.telephone,
-                    firstname: billingAddress.firstname,
-                    lastname: billingAddress.lastname
+            if (billingAddress) {
+
+                // Validacion de tipo de pago
+                const { method, additional_data } = payment_method;
+
+                let approvedTransaction = method === 'c2p_megasoft' ? false : true;
+                let messageTransaction = '';
+
+                if (method == 'c2p_megasoft' && additional_data) {
+                    // console.info("Procesando pago");
+                    const responseControl = await createControlC2P().catch( () => {
+                        throw "Servicio no disponible temporalmente, por favor intente mas tarde.";
+                    });
+                    // console.info("control", responseControl)
+                    const statusPayment = await verifyC2P(responseControl?.control);
+                    // console.info("statusPayment", statusPayment)
+                    if (statusPayment?.codigo === '09' && statusPayment?.estado === 'P') {
+                        const payment = await processPaymentC2P({
+                            ...additional_data, control: responseControl?.control
+                        });
+
+                        // console.info("payment", payment)
+
+                        if (payment?.codigo === '00' && payment?.descripcion === 'APROBADA') {
+                            approvedTransaction = true;
+                        } else if (payment?.codigo === '51') {
+                            throw "Saldo insuficiente";
+                        } else if (payment?.codigo === '99') {
+                            throw "Transaccion fallida.";
+                        } else if (payment?.codigo === 'PC') {
+                            throw "El numero de referencia ya fue utilizado en otro pago.";
+                        } else if (payment?.codigo === 'PB') {
+                            throw "Los datos suministrados no coinciden";
+                        } else if (payment?.codigo === 'VS') {
+                            throw "En este momento no podemos procesar su transaccion, por favor intenta mas tarde.";
+                        }
+                    }
                 }
-            };
 
-            const orderInformation = await httpPost(`rest/${store_view}/V1/carts/mine/payment-information`, payload, customer_token);
-            const order = await getOrderById(orderInformation);
+                const payload = {
+                    paymentMethod: payment_method,
+                    billing_address: {
+                        email: customer.email,
+                        region: billingAddress.region.region,
+                        region_id: billingAddress.region_id,
+                        region_code: billingAddress.region.region_code,
+                        country_id: billingAddress.country_id,
+                        street: billingAddress.street,
+                        postcode: billingAddress.postcode,
+                        city: billingAddress.city,
+                        telephone: billingAddress.telephone,
+                        firstname: billingAddress.firstname,
+                        lastname: billingAddress.lastname
+                    }
+                };
 
-            return { order_id: order.increment_id };
+                if (approvedTransaction) {
+                    const orderInformation = await httpPost(`rest/${store_view}/V1/carts/mine/payment-information`, payload, customer_token);
+                    const order = await getOrderById(orderInformation);
+
+                    return { order_id: order.increment_id };
+                } else {
+                    throw "La transaccion no ha sido aprobada.";
+                }
+            }
         }
+    } catch (error) {
+        throw error;
     }
 };
+
+/**
+ * 
+ * Parse ?XML
+ */
+const parseResponse = (xmlString, columns, parentTag) => {
+    const values = xmlString.split(parentTag + '>')[1].slice(2, -3).split('\n').toString().replace(/[(<a-z|_/>\s)]/g, '').split(',');
+    let obj = {};
+
+    columns.forEach((value, index) => {
+        obj[value] = values[index];
+    });
+
+    return obj;
+};
+
+/**
+ * Crear Pre-Registro C2P MegaSoft
+ */
+const createControlC2P = async () => {
+    const payload = `
+     <request>
+        <cod_afiliacion>${MEGASOFT_C2P_AFFILIATECODE}</cod_afiliacion>
+     </request>
+    `;
+
+    const responseXml = await httpPost('/payment/action/v2-preregistro', payload.trim(), auth, MEGASOFT_URI, true, {
+        "Content-Type": 'text/xml'
+    });
+    const responseJson = parseResponse(responseXml, ['codigo', 'descripcion', 'control'], 'response');
+    return responseJson;
+}
+
+/**
+ * Verificando C2P MegaSoft
+ */
+const verifyC2P = async (control) => {
+    const payload = `
+    <request>
+        <cod_afiliacion>${MEGASOFT_C2P_AFFILIATECODE}</cod_afiliacion>
+        <control>${control}</control>
+        <version>3</version>
+        <tipotrx>C2P</tipotrx>
+    </request>
+    `;
+
+    const responseXml = await httpPost('/payment/action/v2-querystatus', payload.trim(), auth, MEGASOFT_URI, true, {
+        "Content-Type": 'text/xml'
+    });
+    const responseJson = parseResponse(responseXml, ['control', 'cod_afiliacion', 'factura', 'monto', 'estado', 'codigo', 'descripcion', 'vtid', 'seqnum', 'authid', 'authname', 'tarjeta', 'referencia', 'terminal', 'lote', 'rifbanco', 'afiliacion', 'voucher'], 'response');
+    // console.info(responseJson);
+    return responseJson;
+};
+
+/**
+ * Procesar Pago C2P
+ */
+const processPaymentC2P = async (data) => {
+    const { amount, cid, codigobanco, codigoc2p, telefono, factura, control } = data;
+    const payload = `
+    <request>
+        <cod_afiliacion>${MEGASOFT_C2P_AFFILIATECODE}</cod_afiliacion>
+        <control>${control}</control>
+        <cid>${cid}</cid>
+        <telefono>${telefono}</telefono>
+        <codigobanco>${codigobanco}</codigobanco>
+        <codigoc2p>${codigoc2p}</codigoc2p>
+        <amount>${amount}</amount>
+        <factura>${factura}</factura>
+    </request>
+    `;
+
+    const responseXml = await httpPost('/payment/action/v2-procesar-compra-c2p', payload.trim(), auth, MEGASOFT_URI, true, {
+        "Content-Type": 'text/xml'
+    });
+    const responseJson = parseResponse(responseXml, ['control', 'codigo', 'descripcion', 'vtid', 'seqnum', 'authid', 'authname', 'factura', 'referencia', 'terminal', 'lote', 'rifbanco', 'afiliacion'], 'response');
+    // console.info(responseXml);
+    return responseJson;
+}

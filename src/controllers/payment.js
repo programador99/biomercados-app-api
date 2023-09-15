@@ -188,19 +188,228 @@ router.post('/create-order', async (req, res) => {
         }
 
         const params = req.body;
-        const response = await customerCreateOrder(params).catch(e => {
-            throw { code: e.response.status, message: e.response.data.message }
-        });
+        const response = await customerCreateOrder(params);
         res.status(200).json(response);
     } catch (error) {
-        if (error.code && error.message) {
+        if (error?.code && error?.message) {
             registerLogError(error.message);
-            res.status(error.code).json(error.message);
+            res.status(400).json(error?.message);
         } else {
             registerLogError('error inesperado ' + JSON.stringify(error));
             res.status(500).json(error);
         }
     }
+});
+
+router.get('/c2p-banks', async (req, res) => {
+    const banks = [
+        {
+            code: '0105',
+            name: 'Mercantil Banco Universal',
+            app: '✓',
+            web: '-',
+            sms: '✓',
+            number: '24024',
+            body: 'SCP'
+          },
+          {
+            code: '0134',
+            name: 'Banesco Banco Universal',
+            app: '-',
+            web: '✓',
+            sms: '✓',
+            number: '2846',
+            body: 'clave(espacio)dinamica(espacio)Tipo de Identificacion V E J (numero identificacion)'
+          },
+          {
+            code: '0102',
+            name: 'Banco de Venezuela',
+            app: '✓',
+            web: '✓',
+            sms: '✓',
+            number: '2661-2662',
+            body: 'Clave de pago'
+          },
+          {
+            code: '0106',
+            name: 'Banco Provincial',
+            app: '✓',
+            web: '-',
+            sms: '-',
+            number: '-',
+            body: '-'
+          },
+          {
+            code: '0191',
+            name: 'Banco Nacional de Credito',
+            app: '-',
+            web: '✓',
+            sms: '-',
+            number: '-',
+            body: '-'
+          },
+          {
+            code: '0114',
+            name: 'Bancaribe',
+            app: '✓',
+            web: '-',
+            sms: '✓',
+            number: '22741',
+            body: 'CLAVEMIPAGO'
+          },
+          {
+            code: '0172',
+            name: 'Bancamiga Banco Universal',
+            app: '✓',
+            web: '-',
+            sms: '-',
+            number: '-',
+            body: '-'
+          },
+          {
+            code: '0163',
+            name: 'Banco del Tesoro',
+            app: '✓',
+            web: '-',
+            sms: '✓',
+            number: '2383',
+            body: 'COMERCIO(espacio)TIPO DE CEDULA V E (espacio)NUMERO DE IDENTIFICACION(espacio)COORDENADA'
+          },
+          {
+            code: '0115',
+            name: 'Banco Exterior',
+            app: '✓',
+            web: '-',
+            sms: '✓',
+            number: '278',
+            body: 'CLAVE(espacio)TIPO DE IDENTIFICACION V E P (espacio) NUMERO DE IDENTIFICACION'
+          },
+          {
+            code: '0151',
+            name: 'BFC Banco Fondo Comun',
+            app: '✓',
+            web: '-',
+            sms: '-',
+            number: '-',
+            body: '-'
+          },
+          {
+            code: '0104',
+            name: 'Banco Venezolano de Credito',
+            app: '✓',
+            web: '✓',
+            sms: '-',
+            number: '-',
+            body: '-'
+          },
+          {
+            code: '0177',
+            name: 'Banco de la Fuerza Armada',
+            app: '-',
+            web: '-',
+            sms: '✓',
+            number: '??',
+            body: 'CLAVE C2P(espacio)TIPO DE IDENTIFICACION V E (numero de identificacion)'
+          },
+          {
+            code: '0174',
+            name: 'Banplus Banco Universal',
+            app: '✓',
+            web: '-',
+            sms: '-',
+            number: '-',
+            body: '-'
+          },
+          {
+            code: '0138',
+            name: 'Banco Plaza',
+            app: '✓',
+            web: '✓',
+            sms: '✓',
+            number: '1470',
+            body: 'CLAVE(espacio)TIPO DE IDENTIFICACION V E P (espacio) NUMERO DE IDENTIFICACION'
+          },
+          {
+            code: '0156',
+            name: '100% Banco',
+            app: '✓',
+            web: '✓',
+            sms: '✓',
+            number: '100102',
+            body: 'C2P (espacio)PAGO(espacio)MONTO(espacio)CLAVE DE OPERACIONES ESPECIALES'
+          },
+          {
+            code: '0171',
+            name: 'Banco Activo',
+            app: '-',
+            web: '-',
+            sms: '✓',
+            number: '228486',
+            body: 'C2P + TIPO DE DOCUMENTO+NUMERO DE DOCUMENTO (todo mayuscula)'
+          },
+          {
+            code: '0157',
+            name: 'Del Sur Banco Universal',
+            app: '-',
+            web: '-',
+            sms: '✓',
+            number: '78910',
+            body: 'COBROD2'
+          },
+          {
+            code: '0137',
+            name: 'Banco Sofitasa',
+            app: '✓',
+            web: '✓',
+            sms: '-',
+            number: '-',
+            body: '-'
+          },
+          {
+            code: '0169',
+            name: 'Mi Banco, Banco Microfinanciero',
+            app: '✓',
+            web: '✓',
+            sms: '✓',
+            number: '22622',
+            body: 'PAGAR'
+          },
+          {
+            code: '0168',
+            name: 'Bancrecer Banco Universal',
+            app: '✓',
+            web: '✓',
+            sms: '-',
+            number: '-',
+            body: '-'
+          },
+          {
+            code: '0175',
+            name: 'Banco Bicentenario',
+            app: '✓',
+            web: '✓',
+            sms: '-',
+            number: '-',
+            body: '-'
+          },
+          {
+            code: '0128',
+            name: 'Banco Caroni',
+            app: '✓',
+            web: '-',
+            sms: '-',
+            number: '-',
+            body: '-'
+          }
+      ].sort( (a, b) => {
+        if(a.name <= b.name ) {
+            return -1;
+        } else {
+            return 0;
+        }
+      } );
+
+      res.json(banks);
 });
 
 module.exports = router;

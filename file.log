@@ -2278,3 +2278,125 @@
 [2023-03-15T10:10:34.048] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
 [2023-03-15T10:11:05.597] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
 [2023-03-15T10:11:09.320] [ERROR] everything - Error en la consulta a la base de datos, por favor revisa los parametros e intenta nuevamente
+[2023-06-13T10:23:10.621] [ERROR] everything - El token invalido.
+[2023-06-13T10:23:12.702] [ERROR] everything - El token del usuario (customerToken) es requerido
+[2023-06-13T10:23:22.201] [ERROR] everything - Los datos ingresados son incorrectos o su cuenta esta deshabilitada. Por favor verifique sus datos e intentelo nuevamente.
+[2023-06-13T10:23:38.172] [ERROR] everything - Los datos ingresados son incorrectos o su cuenta esta deshabilitada. Por favor verifique sus datos e intentelo nuevamente.
+[2023-06-13T10:26:01.377] [ERROR] everything - Los datos ingresados son incorrectos o su cuenta esta deshabilitada. Por favor verifique sus datos e intentelo nuevamente.
+[2023-06-13T10:27:03.891] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T10:31:03.387] [ERROR] everything - Error occurred during "additional_data" processing. The "integer" value's type is invalid. The "string[]" type was expected. Verify and try again.
+[2023-06-13T10:32:24.301] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T10:33:49.260] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T10:34:37.956] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T10:35:08.222] [ERROR] everything - Notice: Array to string conversion in /home/beta/beta2/vendor/magento/framework/Reflection/TypeProcessor.php on line 481
+[2023-06-13T10:36:27.807] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T10:36:59.864] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T10:39:07.354] [ERROR] everything - error inesperado {"code":500}
+[2023-06-13T10:43:09.587] [ERROR] everything - error inesperado {"code":500}
+[2023-06-13T10:43:40.070] [ERROR] everything - error inesperado {"code":500}
+[2023-06-13T10:45:58.195] [ERROR] everything - error inesperado {}
+[2023-06-13T10:46:27.977] [ERROR] everything - error inesperado {}
+[2023-06-13T10:46:47.885] [ERROR] everything - error inesperado {}
+[2023-06-13T10:47:27.659] [ERROR] everything - error inesperado {}
+[2023-06-13T10:48:10.816] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T10:50:49.619] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T10:51:34.242] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T10:53:30.375] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T10:54:16.068] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T10:54:52.686] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T10:55:14.695] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T10:55:40.395] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T10:56:59.289] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T11:02:03.281] [ERROR] everything - error inesperado {"code":500}
+[2023-06-13T11:02:54.933] [ERROR] everything - error inesperado {"code":500}
+[2023-06-13T11:03:43.250] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T11:04:56.097] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T11:06:17.186] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T11:08:03.807] [ERROR] everything - error inesperado {}
+[2023-06-13T11:08:36.844] [ERROR] everything - error inesperado {}
+[2023-06-13T11:09:08.298] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T11:10:29.560] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T11:12:03.711] [ERROR] everything - El método de pago solicitado no está disponible.
+[2023-06-13T11:42:23.039] [ERROR] everything - Request failed with status code 522
+[2023-06-13T11:42:23.713] [ERROR] everything - Request failed with status code 522
+[2023-06-13T11:42:24.002] [ERROR] everything - error inesperado {"code":522}
+[2023-06-13T11:42:44.041] [ERROR] everything - error inesperado {"code":521}
+[2023-06-13T11:42:44.046] [ERROR] everything - Request failed with status code 521
+[2023-06-13T11:42:44.051] [ERROR] everything - Request failed with status code 521
+[2023-06-13T11:42:44.117] [ERROR] everything - Request failed with status code 521
+[2023-06-13T11:42:44.477] [ERROR] everything - Request failed with status code 521
+[2023-06-13T11:42:44.553] [ERROR] everything - Request failed with status code 521
+[2023-06-13T11:42:45.045] [ERROR] everything - Request failed with status code 521
+[2023-06-13T15:33:31.792] [ERROR] everything - El token invalido.
+[2023-06-13T15:33:33.684] [ERROR] everything - El token del usuario (customerToken) es requerido
+[2023-06-13T15:33:50.629] [ERROR] everything - Los datos ingresados son incorrectos o su cuenta esta deshabilitada. Por favor verifique sus datos e intentelo nuevamente.
+[2023-06-13T15:35:07.031] [ERROR] everything - error inesperado {}
+[2023-06-13T15:37:59.459] [ERROR] everything - error inesperado {}
+[2023-06-13T15:38:51.001] [ERROR] everything - error inesperado {}
+[2023-06-13T15:39:41.183] [ERROR] everything - error inesperado {}
+[2023-06-13T15:40:32.099] [ERROR] everything - error inesperado {}
+[2023-06-13T15:43:29.852] [ERROR] everything - error inesperado "La transaccion no ha sido aprobada."
+[2023-06-13T15:51:52.396] [ERROR] everything - error inesperado "La transaccion no ha sido aprobada."
+[2023-06-13T15:53:59.564] [ERROR] everything - error inesperado "La transaccion no ha sido aprobada."
+[2023-06-13T16:01:21.782] [ERROR] everything - error inesperado "La transaccion no ha sido aprobada."
+[2023-06-13T16:46:00.696] [ERROR] everything - read ETIMEDOUT
+[2023-06-14T09:37:09.851] [ERROR] everything - Request failed with status code 522
+[2023-06-14T09:37:10.512] [ERROR] everything - error inesperado {"code":522}
+[2023-06-14T09:37:10.756] [ERROR] everything - error inesperado {"code":522}
+[2023-06-14T09:37:10.781] [ERROR] everything - error inesperado {"code":522}
+[2023-06-14T09:38:10.571] [ERROR] everything - error inesperado {"code":522}
+[2023-06-14T09:38:30.905] [ERROR] everything - error inesperado {"code":522}
+[2023-06-14T09:38:31.003] [ERROR] everything - Request failed with status code 522
+[2023-06-14T09:38:31.569] [ERROR] everything - error inesperado {"code":522}
+[2023-06-14T09:38:39.127] [ERROR] everything - error inesperado {"code":522}
+[2023-06-14T09:38:39.286] [ERROR] everything - Request failed with status code 522
+[2023-06-14T09:38:41.370] [ERROR] everything - error inesperado {"code":522}
+[2023-06-14T09:39:39.314] [ERROR] everything - error inesperado {"code":522}
+[2023-06-14T09:40:30.737] [ERROR] everything - error inesperado {"code":521}
+[2023-06-14T09:53:55.134] [ERROR] everything - error inesperado "La transaccion no ha sido aprobada."
+[2023-06-14T09:55:37.318] [ERROR] everything - Request failed with status code 400
+[2023-06-14T09:57:20.740] [ERROR] everything - Request failed with status code 400
+[2023-06-14T09:58:39.385] [ERROR] everything - Request failed with status code 400
+[2023-06-14T10:00:05.716] [ERROR] everything - Request failed with status code 400
+[2023-06-14T10:02:06.143] [ERROR] everything - Request failed with status code 400
+[2023-06-14T10:56:53.195] [ERROR] everything - connect ENETUNREACH 2606:4700:20::681a:425:443 - Local (:::0)
+[2023-06-14T10:56:53.283] [ERROR] everything - error inesperado {}
+[2023-06-14T10:57:08.868] [ERROR] everything - connect ENETUNREACH 2606:4700:20::681a:425:443 - Local (:::0)
+[2023-06-14T10:57:09.136] [ERROR] everything - error inesperado {}
+[2023-06-14T11:09:43.307] [ERROR] everything - error inesperado {}
+[2023-06-14T11:10:43.200] [ERROR] everything - error inesperado {}
+[2023-06-14T11:11:43.198] [ERROR] everything - error inesperado {}
+[2023-06-14T11:12:43.200] [ERROR] everything - error inesperado {}
+[2023-06-14T11:13:43.202] [ERROR] everything - error inesperado {}
+[2023-06-14T11:14:43.202] [ERROR] everything - error inesperado {}
+[2023-06-14T11:15:43.196] [ERROR] everything - error inesperado {}
+[2023-06-14T11:16:43.204] [ERROR] everything - error inesperado {}
+[2023-06-14T11:17:43.227] [ERROR] everything - error inesperado {}
+[2023-06-14T11:18:43.235] [ERROR] everything - error inesperado {}
+[2023-06-14T11:19:43.196] [ERROR] everything - error inesperado {}
+[2023-06-14T11:20:43.206] [ERROR] everything - error inesperado {}
+[2023-06-14T11:21:43.199] [ERROR] everything - error inesperado {}
+[2023-06-14T11:22:43.200] [ERROR] everything - error inesperado {}
+[2023-06-14T11:23:43.198] [ERROR] everything - error inesperado {}
+[2023-06-14T11:24:43.200] [ERROR] everything - error inesperado {}
+[2023-06-14T11:25:43.332] [ERROR] everything - error inesperado {}
+[2023-06-14T11:26:43.202] [ERROR] everything - error inesperado {}
+[2023-06-14T11:27:43.205] [ERROR] everything - error inesperado {}
+[2023-06-14T11:28:43.199] [ERROR] everything - error inesperado {}
+[2023-06-14T11:29:43.204] [ERROR] everything - error inesperado {}
+[2023-06-14T11:30:43.199] [ERROR] everything - error inesperado {}
+[2023-06-14T11:31:43.195] [ERROR] everything - error inesperado {}
+[2023-06-14T11:32:43.200] [ERROR] everything - error inesperado {}
+[2023-06-14T12:15:33.188] [ERROR] everything - The shipping method can't be set for an empty cart. Add an item to cart and try again.
+[2023-06-14T12:25:36.291] [ERROR] everything - The shipping method can't be set for an empty cart. Add an item to cart and try again.
+[2023-06-14T12:36:03.624] [ERROR] everything - The shipping method can't be set for an empty cart. Add an item to cart and try again.
+[2023-06-14T12:39:22.628] [ERROR] everything - The shipping method can't be set for an empty cart. Add an item to cart and try again.
+[2023-06-14T12:42:49.884] [ERROR] everything - The shipping method can't be set for an empty cart. Add an item to cart and try again.
+[2023-06-14T12:45:15.931] [ERROR] everything - The shipping method can't be set for an empty cart. Add an item to cart and try again.
+[2023-06-14T12:48:15.345] [ERROR] everything - The shipping method can't be set for an empty cart. Add an item to cart and try again.
+[2023-06-14T12:51:39.944] [ERROR] everything - The shipping method can't be set for an empty cart. Add an item to cart and try again.
+[2023-06-14T12:52:35.067] [INFO] everything - ALIMEX PIERNA COCIDA 98% 300GRsetItemToCartEl producto que intentas agregar no está disponible.
+[2023-06-14T12:53:37.984] [ERROR] everything - The shipping method can't be set for an empty cart. Add an item to cart and try again.
+[2023-06-14T12:55:34.295] [ERROR] everything - The shipping method can't be set for an empty cart. Add an item to cart and try again.
+[2023-06-14T12:59:51.772] [ERROR] everything - The shipping method can't be set for an empty cart. Add an item to cart and try again.
+[2023-06-14T14:32:57.089] [ERROR] everything - The shipping method can't be set for an empty cart. Add an item to cart and try again.

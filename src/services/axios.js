@@ -25,11 +25,11 @@ export const httpGet = async (url, customerToken = bearerToken) => {
   return response.data;
 }
 
-export const httpPost = async (url, payload, customerToken = bearerToken) => {
-  const { data } = await axios.post(baseUrl + url, payload, {
+export const httpPost = async (url, payload, customerToken = bearerToken, base = baseUrl, basic = false, head = headers) => {
+  const { data } = await axios.post(base + url, payload, {
     headers: {
-      ...headers,
-      "Authorization": `Bearer ${customerToken}`
+      ...head,
+      "Authorization": `${!basic ? 'Bearer' : 'Basic'} ${customerToken}`
     },
   });
   return data;
