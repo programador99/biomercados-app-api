@@ -58,7 +58,7 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
             await saveHistorySearch(userId, params.search);
         }
 
-        if (!params?.search || params.search === '' || params.search?.toString().include(['bioinsuperables', 'ofertas'])) {
+        if (!params?.search || params.search === '' || params.search?.toString().toLowerCase().include(['bioinsuperables', 'ofertas'])) {
             // console.info("listado", elasticProducts);
             const query = constructQuery(params, storeId, isAdult);
             const sort = constructSort(params);
