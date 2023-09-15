@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # Create an image for production
-FROM node:16-alpine
+FROM node:14.19.1-alpine
 
 COPY . /tmp/builder
 
@@ -16,8 +16,8 @@ RUN cd /tmp/builder && \
 WORKDIR /var/www
 
 COPY package*.json ./
-COPY .env.example .env
-#COPY .env .env
+# COPY .env.example .env
+COPY .env .env
 
 RUN npm install --production && rm -rf /tmp/builder/
 

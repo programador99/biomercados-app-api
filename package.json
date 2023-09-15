@@ -5,7 +5,9 @@
   "scripts": {
     "build": "babel src --out-dir build",
     "develop": "nodemon --exec babel-node src/app.js",
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "create": "docker build . -t registry.biomercados.net.ve/app-api:$npm_package_version -t registry.biomercados.net.ve/app-api:latest",
+    "push": "docker push registry.biomercados.net.ve/app-api:latest"
   },
   "dependencies": {
     "ajv": "^8.11.0",
