@@ -29,10 +29,28 @@ const searchElastic = async (params, storeId) => {
         }
     }))).filter(product => product);
 
-    elasticProducts = formatProducts(elasticProducts, storeId, total_count, params.search);
+    elasticProducts = formatProducts(elasticProducts, storeId, elasticProducts.length, params.search);
 
     return { ...elasticProducts };
 };
+
+String.prototype.include = function (arr) {
+    let resultado = [];
+    if (arr) {
+        arr.forEach(item => {
+            // if(this.trim().includes(item)) {
+            //   resultado.push(true);
+            // }
+            const len = item.length;
+            const str = this.trim().slice(0, len);
+            if (str === item) {
+                resultado.push(true);
+            }
+        });
+    }
+
+    return resultado.some(i => i === true);
+}
 
 export const getProducts = async (params, storeId, userId, isAdult) => {
     try {
@@ -40,7 +58,7 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
             await saveHistorySearch(userId, params.search);
         }
 
-        if (!params?.search || params.search === '') {
+        if (!params?.search || params.search === '' || params.search?.toString().include(['bioinsuperables', 'ofertas'])) {
             // console.info("listado", elasticProducts);
             const query = constructQuery(params, storeId, isAdult);
             const sort = constructSort(params);
