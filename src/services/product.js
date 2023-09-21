@@ -105,7 +105,8 @@ export const getBioinsuperables = async (storeId, productId, isAdult) => {
         id: parseInt(productId),
         stores: {
             $elemMatch: {
-                bioinsuperable: true
+                bioinsuperable: true,
+                id: storeId
             }
         }
     });
