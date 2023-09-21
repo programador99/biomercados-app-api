@@ -102,7 +102,12 @@ export const getBioinsuperables = async (storeId, productId, isAdult) => {
     let subquery = {};
 
     const product = parseInt(productId) && await Product.findOne({
-        id: parseInt(productId)
+        id: parseInt(productId),
+        stores: {
+            $elemMatch: {
+                bioinsuperable: true
+            }
+        }
     });
 
     let categoryId = 0;
