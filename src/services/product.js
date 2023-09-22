@@ -100,7 +100,7 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
 export const getBioinsuperables = async (storeId, productId, isAdult) => {
     let query = {}
     let subquery = {};
-    storeId = parseInt(storeId);
+    // storeId = parseInt(storeId);
 
     const product = await Product.findOne({
         id: parseInt(productId)
