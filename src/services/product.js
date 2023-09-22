@@ -100,15 +100,10 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
 export const getBioinsuperables = async (storeId, productId, isAdult) => {
     let query = {}
     let subquery = {};
+    storeId = parseInt(storeId);
 
-    const product = parseInt(productId) && await Product.findOne({
-        id: parseInt(productId),
-        stores: {
-            $elemMatch: {
-                bioinsuperable: true,
-                id: storeId
-            }
-        }
+    const product = await Product.findOne({
+        id: parseInt(productId)
     });
 
     let categoryId = 0;
@@ -127,7 +122,7 @@ export const getBioinsuperables = async (storeId, productId, isAdult) => {
     if (isAdult) {
         query = {
             $match: {
-                stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } },
+                stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 }, bioinsuperable: true } },
                 id: { $ne: parseInt(productId) },
                 ...subquery
             }
@@ -135,7 +130,7 @@ export const getBioinsuperables = async (storeId, productId, isAdult) => {
     } else {
         query = {
             $match: {
-                stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } },
+                stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 }, bioinsuperable: true } },
                 id: { $ne: parseInt(productId) },
                 isAgeRestricted: false,
                 ...subquery
@@ -144,22 +139,8 @@ export const getBioinsuperables = async (storeId, productId, isAdult) => {
     }
 
     let products = await Product.aggregate([
-        query,
-        // { $sample: { size: 10 } }
+        query
     ]);
-    // let products = await Product.find({ ...query })
-
-    products = products.sort((a, b) => {
-        const aS = a?.stores.some(st => st.bioinsuperable === true) ? 1 : 0;
-        const bS = b?.stores.some(st => st.bioinsuperable === false) ? 0 : 1;
-        let value = randomIntFromInterval(-1, 1);
-
-        if (aS >= bS) {
-            return value;
-        } else {
-            return 0;
-        }
-    })
     return formatProduct(products, storeId).slice(0, 10);
 }
 
