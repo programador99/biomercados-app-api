@@ -18,6 +18,7 @@ const productSchema = new mongoose.Schema({
   tax: Number,
   isAgeRestricted: Boolean,
   description: Object,
+  issoperunit: Boolean
 });
 
 // Agregando indices de busqueda

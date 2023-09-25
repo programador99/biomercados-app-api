@@ -582,6 +582,7 @@ const formatProductsMoreSeller = async (categories, storeId) => {
                 stock,
                 bioinsuperable,
                 oferta,
+                issoperunit: dbProduct.issoperunit,
                 tax: dbProduct.tax,
                 expirationpush: dbProduct?.expirationpush
             };
@@ -670,6 +671,7 @@ const formatProducts = (products, storeId, count, search) => {
                 stock,
                 bioinsuperable,
                 oferta,
+                issoperunit: product.issoperunit,
                 brand: product.brand,
                 tax: product.tax,
                 description: product.description
