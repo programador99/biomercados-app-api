@@ -583,6 +583,7 @@ const formatProductsMoreSeller = async (categories, storeId) => {
                 bioinsuperable,
                 oferta,
                 issoperunit: dbProduct.issoperunit,
+                weight: dbProduct.weight,
                 tax: dbProduct.tax,
                 expirationpush: dbProduct?.expirationpush
             };
@@ -672,6 +673,7 @@ const formatProducts = (products, storeId, count, search) => {
                 bioinsuperable,
                 oferta,
                 issoperunit: product.issoperunit,
+                weight: product.weight,
                 brand: product.brand,
                 tax: product.tax,
                 description: product.description
@@ -713,6 +715,9 @@ export const formatProduct = (products, storeId) => {
             stock,
             bioinsuperable,
             oferta,
+            issoperunit: product.issoperunit,
+            weight: product.weight,
+            pos: '12',
             brand: product.brand,
             tax: product.tax
         };

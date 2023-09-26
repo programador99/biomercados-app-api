@@ -5,7 +5,7 @@
   "scripts": {
     "build": "babel src --out-dir build",
     "develop": "nodemon --exec babel-node src/app.js",
-    "start": "node src/app.js"
+    "start": "node build/app.js"
   },
   "dependencies": {
     "ajv": "^8.11.0",
