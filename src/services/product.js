@@ -59,11 +59,11 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
         }
 
         const word = params.search?.toString().toLowerCase();
-        const searchedKeyWord = word.include(['bioinsuperables', 'ofertas']);
+        const searchedKeyWord = word?.include(['bioinsuperables', 'ofertas']);
 
         if (!params?.search || params.search === '' || searchedKeyWord) {
-            const isBioInsuperableWord = word.include(['bioinsuperables']);
-            const isOfertaWord = word.include(['ofertas']);
+            const isBioInsuperableWord = word?.include(['bioinsuperables']);
+            const isOfertaWord = word?.include(['ofertas']);
 
             const query = constructQuery(params, storeId, isAdult);
             const sort = constructSort(params);
