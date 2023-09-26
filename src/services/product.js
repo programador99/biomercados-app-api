@@ -58,8 +58,13 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
             await saveHistorySearch(userId, params.search);
         }
 
-        if (!params?.search || params.search === '' || params.search?.toString().toLowerCase().include(['bioinsuperables', 'ofertas'])) {
-            // console.info("listado", elasticProducts);
+        const word = params.search?.toString().toLowerCase();
+        const searchedKeyWord = word.include(['bioinsuperables', 'ofertas']);
+
+        if (!params?.search || params.search === '' || searchedKeyWord) {
+            const isBioInsuperableWord = word.include(['bioinsuperables']);
+            const isOfertaWord = word.include(['ofertas']);
+
             const query = constructQuery(params, storeId, isAdult);
             const sort = constructSort(params);
             // const paginate = constructPaginate(params);
@@ -76,7 +81,19 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
             total.products.forEach(product => {
                 if (!totalProducts.some(item => item?.sku == product?.sku)) {
                     // console.info(product);
-                    totalProducts.push(product);
+                    if(searchedKeyWord) {
+                        if(isBioInsuperableWord) {
+                            if(product.bioinsuperable === true) {
+                                totalProducts.push(product);
+                            }
+                        } else if(isOfertaWord) {
+                            if(product.oferta === true) {
+                                totalProducts.push(product);
+                            }
+                        }
+                    } else {
+                        totalProducts.push(product);
+                    }
                 }
             });
 
