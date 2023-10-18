@@ -67,7 +67,7 @@ export const getProducts = async (params, storeId, userId, isAdult) => {
 
             const query = constructQuery(params, storeId, isAdult);
             // const sort = constructSort(params);
-            
+
             // const paginate = constructPaginate(params);
             // const count = await Product.find({ ...query, stores: { $elemMatch: { id: storeId, stock: { $gt: 0 }, price: { $gt: 0 } } } }, { _id: 0, __v: 0 }).count();
             // products -> Product.find sera desactivado por elasticProducts
@@ -239,7 +239,7 @@ function searchDG(params, array, categories) {
                         flag += 100;
                     }
 
-                    if (!item.image.includes('bio_placeholder')) {
+                    if (!item.image?.includes('bio_placeholder')) {
                         flag += 10;
                     }
                 }
