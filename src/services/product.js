@@ -180,7 +180,7 @@ function positionFirstProductCategory(array, bioinsuperable = null) {
         } else {
             return {
                 ...product._doc,
-                flag: product.image.includes('bio_placeholder') ? 1 : 2
+                flag: product.image?.includes('bio_placeholder') ? 1 : 2
             };
         }
     }).filter(product => product.stores.some(store => (bioinsuperable && store.bioinsuperable === true) || !bioinsuperable)).sort((a, b) => {
