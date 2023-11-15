@@ -133,13 +133,15 @@ router.post('/cuotization', async (req, res) => {
 
             // Desactivando net247
             // if (pm.code !== 'net247') {
+            if (pm.code !== 'paypal_express') {
                 return {
                     ...pm,
                     title: pm.code === 'paypal_express' ? 'PayPal y Tarjetas Internacionales' : pm.title,
-                    banks: pb?.banks.map( bank => bank?.store_view === store_view ? bank : null).filter(bank => bank) ?? [],
+                    banks: pb?.banks.map(bank => bank?.store_view === store_view ? bank : null).filter(bank => bank) ?? [],
                     currency: pb?.currency ?? 2,
                     description: pb?.description
                 }
+            }
             // } else {
             //     return null
             // }
@@ -211,8 +213,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '✓',
             number: '24024',
             body: 'SCP'
-          },
-          {
+        },
+        {
             code: '0134',
             name: 'Banesco Banco Universal',
             app: '-',
@@ -220,8 +222,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '✓',
             number: '2846',
             body: 'clave(espacio)dinamica(espacio)Tipo de Identificacion V E J (numero identificacion)'
-          },
-          {
+        },
+        {
             code: '0102',
             name: 'Banco de Venezuela',
             app: '✓',
@@ -229,8 +231,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '✓',
             number: '2661-2662',
             body: 'Clave de pago'
-          },
-          {
+        },
+        {
             code: '0106',
             name: 'Banco Provincial',
             app: '✓',
@@ -238,8 +240,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '-',
             number: '-',
             body: '-'
-          },
-          {
+        },
+        {
             code: '0191',
             name: 'Banco Nacional de Credito',
             app: '-',
@@ -247,8 +249,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '-',
             number: '-',
             body: '-'
-          },
-          {
+        },
+        {
             code: '0114',
             name: 'Bancaribe',
             app: '✓',
@@ -256,8 +258,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '✓',
             number: '22741',
             body: 'CLAVEMIPAGO'
-          },
-          {
+        },
+        {
             code: '0172',
             name: 'Bancamiga Banco Universal',
             app: '✓',
@@ -265,8 +267,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '-',
             number: '-',
             body: '-'
-          },
-          {
+        },
+        {
             code: '0163',
             name: 'Banco del Tesoro',
             app: '✓',
@@ -274,8 +276,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '✓',
             number: '2383',
             body: 'COMERCIO(espacio)TIPO DE CEDULA V E (espacio)NUMERO DE IDENTIFICACION(espacio)COORDENADA'
-          },
-          {
+        },
+        {
             code: '0115',
             name: 'Banco Exterior',
             app: '✓',
@@ -283,8 +285,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '✓',
             number: '278',
             body: 'CLAVE(espacio)TIPO DE IDENTIFICACION V E P (espacio) NUMERO DE IDENTIFICACION'
-          },
-          {
+        },
+        {
             code: '0151',
             name: 'BFC Banco Fondo Comun',
             app: '✓',
@@ -292,8 +294,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '-',
             number: '-',
             body: '-'
-          },
-          {
+        },
+        {
             code: '0104',
             name: 'Banco Venezolano de Credito',
             app: '✓',
@@ -301,8 +303,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '-',
             number: '-',
             body: '-'
-          },
-          {
+        },
+        {
             code: '0177',
             name: 'Banco de la Fuerza Armada',
             app: '-',
@@ -310,8 +312,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '✓',
             number: '??',
             body: 'CLAVE C2P(espacio)TIPO DE IDENTIFICACION V E (numero de identificacion)'
-          },
-          {
+        },
+        {
             code: '0174',
             name: 'Banplus Banco Universal',
             app: '✓',
@@ -319,8 +321,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '-',
             number: '-',
             body: '-'
-          },
-          {
+        },
+        {
             code: '0138',
             name: 'Banco Plaza',
             app: '✓',
@@ -328,8 +330,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '✓',
             number: '1470',
             body: 'CLAVE(espacio)TIPO DE IDENTIFICACION V E P (espacio) NUMERO DE IDENTIFICACION'
-          },
-          {
+        },
+        {
             code: '0156',
             name: '100% Banco',
             app: '✓',
@@ -337,8 +339,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '✓',
             number: '100102',
             body: 'C2P (espacio)PAGO(espacio)MONTO(espacio)CLAVE DE OPERACIONES ESPECIALES'
-          },
-          {
+        },
+        {
             code: '0171',
             name: 'Banco Activo',
             app: '-',
@@ -346,8 +348,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '✓',
             number: '228486',
             body: 'C2P + TIPO DE DOCUMENTO+NUMERO DE DOCUMENTO (todo mayuscula)'
-          },
-          {
+        },
+        {
             code: '0157',
             name: 'Del Sur Banco Universal',
             app: '-',
@@ -355,8 +357,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '✓',
             number: '78910',
             body: 'COBROD2'
-          },
-          {
+        },
+        {
             code: '0137',
             name: 'Banco Sofitasa',
             app: '✓',
@@ -364,8 +366,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '-',
             number: '-',
             body: '-'
-          },
-          {
+        },
+        {
             code: '0169',
             name: 'Mi Banco, Banco Microfinanciero',
             app: '✓',
@@ -373,8 +375,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '✓',
             number: '22622',
             body: 'PAGAR'
-          },
-          {
+        },
+        {
             code: '0168',
             name: 'Bancrecer Banco Universal',
             app: '✓',
@@ -382,8 +384,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '-',
             number: '-',
             body: '-'
-          },
-          {
+        },
+        {
             code: '0175',
             name: 'Banco Bicentenario',
             app: '✓',
@@ -391,8 +393,8 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '-',
             number: '-',
             body: '-'
-          },
-          {
+        },
+        {
             code: '0128',
             name: 'Banco Caroni',
             app: '✓',
@@ -400,16 +402,16 @@ router.get('/c2p-banks', async (req, res) => {
             sms: '-',
             number: '-',
             body: '-'
-          }
-      ].sort( (a, b) => {
-        if(a.name <= b.name ) {
+        }
+    ].sort((a, b) => {
+        if (a.name <= b.name) {
             return -1;
         } else {
             return 0;
         }
-      } );
+    });
 
-      res.json(banks);
+    res.json(banks);
 });
 
 module.exports = router;
